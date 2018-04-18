@@ -33,11 +33,14 @@
       $consulta = mysqli_query($con, $sql);
       $fila = mysqli_fetch_array($consulta);
       if($fila > 0){
-        return true;
+        if($fila["usuario"] == $usuarios->usuario && $fila["contrasena"] == $usuarios->contrasena){
+          return true;
+        }
       }
       else {
         return false;
       }
+      mysqli_close($con);
     }
   }
 

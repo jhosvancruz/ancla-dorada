@@ -25,7 +25,24 @@ $(document).ready(ini);
     });
   }
   function validar(){
+
     var usuario = $("#usuario").val();
     var pass = $("#pass").val();
 
+    $.ajax({
+      url: "validar.php",
+      success: function(result){
+        if(result == "true"){
+          document.location.href="http://localhost/ancla-dorada/calendario/";
+        }
+        else {
+          $("#resultado").html("<div class='alert alert-danger' role='alert'>Usuario no válido</div>");
+        }
+      },
+      data:{
+        usuario: usuario,
+        pass: pass
+      },
+      type: "POST"
+    });
   }

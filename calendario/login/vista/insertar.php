@@ -1,14 +1,14 @@
 <?php
   include "../controlador/usuariosControlador.php";
-  if(isset($_GET["usuario"]) || isset($_GET["pass"]))
+  if(isset($_POST["usuario"]) || isset($_POST["pass"]))
   {
-    if(trim($_GET["usuario"]) == "" || trim($_GET["pass"]) == "")
+    if(trim($_POST["usuario"]) == "" || trim($_POST["pass"]) == "")
     {
       echo "false";
     }
     else{
     $usuariosCon = new usuariosControlador();
-    if($usuariosCon->insertarUsuarios($_GET["usuario"],$_GET["pass"]))
+    if($usuariosCon->insertarUsuarios($_POST["usuario"],$_POST["pass"]))
     {
       echo "true";
     }
