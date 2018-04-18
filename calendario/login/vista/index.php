@@ -17,7 +17,8 @@
   <body>
     <div class="container">
       <div class="form-signin">
-        <h2 class="form-signin-heading">Iniciar Sesión</h2>
+        <img src="img/ADLOGO_DEFINITIVO-01.png" height="250px" width="300px" class="rounded mx-auto d-block">
+        <h2 class="form-signin-heading" aling="center">Iniciar Sesión</h2>
         <label for="inputEmail" class="sr-only">Usuario</label>
         <input type="email" id="usuario" class="form-control" placeholder="Usuario" required autofocus>
         <label for="inputPassword" class="sr-only">Contraseña</label>
