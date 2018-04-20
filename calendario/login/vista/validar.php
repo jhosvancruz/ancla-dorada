@@ -10,6 +10,9 @@ if(isset($_POST["usuario"]) || isset($_POST["pass"]))
     $usuariosCon = new usuariosControlador();
       if($usuariosCon->validar($_POST["usuario"],$_POST["pass"]))
       {
+        session_start();
+        $_SESSION["usuario"] = $_POST["usuario"];
+        $_SESSION["pass"] = $_POST["pass"];
         echo "true";
       }
       else {

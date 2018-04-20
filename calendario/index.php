@@ -18,71 +18,75 @@
 **********************************************************************
 **********************************************************************
 **/
-
-// Definimos nuestra zona horaria
-date_default_timezone_set("America/Santiago");
-
-// incluimos el archivo de funciones
-include 'funciones.php';
-
-// incluimos el archivo de configuracion
-include 'config.php';
-
-// Verificamos si se ha enviado el campo con name from
-if (isset($_POST['from'])) 
+session_start();
+if(isset($_SESSION["usuario"]) && isset($_SESSION["pass"]))
 {
+  // Definimos nuestra zona horaria
+  date_default_timezone_set("America/Mexico_City");
 
-    // Si se ha enviado verificamos que no vengan vacios
-    if ($_POST['from']!="" AND $_POST['to']!="") 
-    {
+  // incluimos el archivo de funciones
+  include 'funciones.php';
 
-        // Recibimos el fecha de inicio y la fecha final desde el form
+  // incluimos el archivo de configuracion
+  include 'config.php';
 
-        $inicio = _formatear($_POST['from']);
-        // y la formateamos con la funcion _formatear
+  // Verificamos si se ha enviado el campo con name from
+  if (isset($_POST['from']))
+  {
 
-        $final  = _formatear($_POST['to']);
+      // Si se ha enviado verificamos que no vengan vacios
+      if ($_POST['from']!="" AND $_POST['to']!="")
+      {
 
-        // Recibimos el fecha de inicio y la fecha final desde el form
+          // Recibimos el fecha de inicio y la fecha final desde el form
 
-        $inicio_normal = $_POST['from'];
+          $inicio = _formatear($_POST['from']);
+          // y la formateamos con la funcion _formatear
 
-        // y la formateamos con la funcion _formatear
-        $final_normal  = $_POST['to'];
+          $final  = _formatear($_POST['to']);
 
-        // Recibimos los demas datos desde el form
-        $titulo = evaluar($_POST['title']);
+          // Recibimos el fecha de inicio y la fecha final desde el form
 
-        // y con la funcion evaluar
-        $body   = evaluar($_POST['event']);
+          $inicio_normal = $_POST['from'];
 
-        // reemplazamos los caracteres no permitidos
-        $clase  = evaluar($_POST['class']);
+          // y la formateamos con la funcion _formatear
+          $final_normal  = $_POST['to'];
 
-        // insertamos el evento
-        $query="INSERT INTO eventos VALUES(null,'$titulo','$body','','$clase','$inicio','$final','$inicio_normal','$final_normal')";
+          // Recibimos los demas datos desde el form
+          $titulo = evaluar($_POST['title']);
 
-        // Ejecutamos nuestra sentencia sql
-        $conexion->query($query); 
+          // y con la funcion evaluar
+          $body   = evaluar($_POST['event']);
 
-        // Obtenemos el ultimo id insetado
-        $im=$conexion->query("SELECT MAX(id) AS id FROM eventos");
-        $row = $im->fetch_row();  
-        $id = trim($row[0]);
+          // reemplazamos los caracteres no permitidos
+          $clase  = evaluar($_POST['class']);
 
-        // para generar el link del evento
-        $link = "$base_url"."descripcion_evento.php?id=$id";
+          // insertamos el evento
+          $query="INSERT INTO eventos VALUES(null,'$titulo','$body','','$clase','$inicio','$final','$inicio_normal','$final_normal')";
 
-        // y actualizamos su link
-        $query="UPDATE eventos SET url = '$link' WHERE id = $id";
+          // Ejecutamos nuestra sentencia sql
+          $conexion->query($query);
 
-        // Ejecutamos nuestra sentencia sql
-        $conexion->query($query); 
+          // Obtenemos el ultimo id insetado
+          $im=$conexion->query("SELECT MAX(id) AS id FROM eventos");
+          $row = $im->fetch_row();
+          $id = trim($row[0]);
 
-        // redireccionamos a nuestro calendario
-        header("Location:$base_url"); 
-    }
-}
+          // para generar el link del evento
+          $link = "$base_url"."descripcion_evento.php?id=$id";
+
+          // y actualizamos su link
+          $query="UPDATE eventos SET url = '$link' WHERE id = $id";
+
+          // Ejecutamos nuestra sentencia sql
+          $conexion->query($query);
+
+          // redireccionamos a nuestro calendario
+          header("Location:$base_url");
+      }
+  }
+
+
 
  ?>
 
@@ -109,7 +113,10 @@ if (isset($_POST['from']))
         <div class="container">
 
                 <div class="row">
-                        <div class="page-header"><h2></h2></div>
+                        <div class="page-header">
+                          <h2></h2>
+                          <a href="http://localhost/ancla-dorada/calendario/login/vista/cerrarsesion.php">Cerrar Sesión</a>
+                        </div>
                                 <div class="pull-left form-inline"><br>
                                         <div class="btn-group">
                                             <button class="btn btn-primary" data-calendar-nav="prev"><< Anterior</button>
@@ -164,40 +171,40 @@ if (isset($_POST['from']))
                 var options = {
 
                     // definimos que los eventos se mostraran en ventana modal
-                        modal: '#events-modal', 
+                        modal: '#events-modal',
 
                         // dentro de un iframe
-                        modal_type:'iframe',    
+                        modal_type:'iframe',
 
                         //obtenemos los eventos de la base de datos
-                        events_source: '<?=$base_url?>obtener_eventos.php', 
+                        events_source: '<?=$base_url?>obtener_eventos.php',
 
                         // mostramos el calendario en el mes
-                        view: 'month',             
+                        view: 'month',
 
                         // y dia actual
-                        day: yyyy+"-"+mm+"-"+dd,   
+                        day: yyyy+"-"+mm+"-"+dd,
 
 
                         // definimos el idioma por defecto
-                        language: 'es-ES', 
+                        language: 'es-ES',
 
                         //Template de nuestro calendario
-                        tmpl_path: '<?=$base_url?>tmpls/', 
+                        tmpl_path: '<?=$base_url?>tmpls/',
                         tmpl_cache: false,
 
 
                         // Hora de inicio
-                        time_start: '08:00', 
+                        time_start: '08:00',
 
                         // y Hora final de cada dia
-                        time_end: '22:00',   
+                        time_end: '22:00',
 
                         // intervalo de tiempo entre las hora, en este caso son 30 minutos
-                        time_split: '30',    
+                        time_split: '30',
 
                         // Definimos un ancho del 100% a nuestro calendario
-                        width: '100%', 
+                        width: '100%',
 
                         onAfterEventsLoad: function(events)
                         {
@@ -230,7 +237,7 @@ if (isset($_POST['from']))
 
 
                 // id del div donde se mostrara el calendario
-                var calendar = $('#calendar').calendar(options); 
+                var calendar = $('#calendar').calendar(options);
 
                 $('.btn-group button[data-calendar-nav]').each(function()
                 {
@@ -329,3 +336,9 @@ if (isset($_POST['from']))
 </div>
 </body>
 </html>
+<?php
+}
+else {
+   echo "<meta http-equiv='refresh' content='0;url=http://localhost/ancla-dorada/calendario/login/vista/'>";
+}
+ ?>

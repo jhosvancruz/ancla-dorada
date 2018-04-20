@@ -56,6 +56,7 @@ a:hover {
 	text-decoration: none;
 	color: #ff1744;
 }
+
 a:focus {
 	outline: none;
 	color: #999999;
@@ -244,7 +245,7 @@ blockquote::before{
     width: 50px;
     z-index: 333;
 	overflow:hidden;
-	 -webkit-transition-duration: 0.5s; 
+	 -webkit-transition-duration: 0.5s;
     transition-duration: 0.5s;
 }
 .to-top:focus{color:#fff;}
@@ -268,7 +269,7 @@ blockquote::before{
     -webkit-transform: scale(0);
 	-webkit-transition:all 0.4s ease-out 0s;
     transition: all 0.4s ease-out 0s;
-	-webkit-transition-duration: 0.8s; 
+	-webkit-transition-duration: 0.8s;
     transition-duration: 0.8s;
 }
 .to-top::after {
@@ -737,7 +738,7 @@ background-position: 50% 50%;
 	position:relative;
 	overflow:hidden;
 	z-index:1;
-	 -webkit-transition-duration: 1.5s; 
+	 -webkit-transition-duration: 1.5s;
     transition-duration: 1.5s;
 }
 .slider-btn:hover{color:#ff1744;}
@@ -759,7 +760,7 @@ background-position: 50% 50%;
     -webkit-transform: scale(0);
 	-webkit-transition:all 0.4s ease-out 0s;
     transition: all 0.4s ease-out 0s;
-	-webkit-transition-duration: 0.8s; 
+	-webkit-transition-duration: 0.8s;
     transition-duration: 0.8s;
 }
 .slider-btn::after {
@@ -886,7 +887,7 @@ background-position: 50% 50%;
 	position:relative;
 	overflow:hidden;
 	z-index:1;
-	 -webkit-transition-duration: 1.5s; 
+	 -webkit-transition-duration: 1.5s;
     transition-duration: 1.5s;
 }
 .content-btn:hover{color:#ff1744;border:1px solid #ff1744;}
@@ -908,7 +909,7 @@ background-position: 50% 50%;
     -webkit-transform: scale(0);
 	-webkit-transition:all 0.4s ease-out 0s;
     transition: all 0.4s ease-out 0s;
-	-webkit-transition-duration: 0.8s; 
+	-webkit-transition-duration: 0.8s;
     transition-duration: 0.8s;
 }
 .content-btn::after {
@@ -1044,8 +1045,8 @@ background-position: 50% 50%;
 	width: 50%;
 	transform:scale(1,1);
 	transform-origin:right;
-	-ms-transform: scale(1,1); 
-    -ms-transform-origin:right; 
+	-ms-transform: scale(1,1);
+    -ms-transform-origin:right;
     -webkit-transform: scale(1,1);
     -webkit-transform-origin:right;
 }
@@ -1119,7 +1120,7 @@ background-position: 50% 50%;
     -webkit-transform: scale(0);
 	-webkit-transition:all 0.4s ease-out 0s;
     transition: all 0.4s ease-out 0s;
-	-webkit-transition-duration: 0.8s; 
+	-webkit-transition-duration: 0.8s;
     transition-duration: 0.8s;
 }
 .port-filter a::after {
@@ -1400,7 +1401,7 @@ input:focus, textarea:focus {
 	position:relative;
 	overflow:hidden;
 	z-index:1;
-	 -webkit-transition-duration: 1.5s; 
+	 -webkit-transition-duration: 1.5s;
     transition-duration: 1.5s;
 }
 .contact-btn:hover{color:#ff1744;border:1px solid #ff1744;}
@@ -1422,7 +1423,7 @@ input:focus, textarea:focus {
     -webkit-transform: scale(0);
 	-webkit-transition:all 0.4s ease-out 0s;
     transition: all 0.4s ease-out 0s;
-	-webkit-transition-duration: 0.8s; 
+	-webkit-transition-duration: 0.8s;
     transition-duration: 0.8s;
 }
 .contact-btn::after {
@@ -1889,7 +1890,7 @@ transition:0.3s;
 	position: relative;
 	overflow: hidden;
 	z-index: 1;
-	border:1px solid #ff1744; 
+	border:1px solid #ff1744;
 	width:auto;
 	-webkit-transition: all 0.3s ease 0s;
 	-moz-transition: all 0.3s ease 0s;
