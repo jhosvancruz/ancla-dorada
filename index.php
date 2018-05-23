@@ -1,5 +1,6 @@
 ﻿<!DOCTYPE html>
-<html lang="en"><head>
+<html lang="en">
+       <head>
         <meta http-equiv="content-type" content="text/html; charset=UTF-8">
         <title>Kordon - Responsive Creative Portfolio Template</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -52,7 +53,7 @@
                      <div class="container-fluid">
 
                         <div class="logo-clean">
-                            <a href="index.html">
+                            <a href="index.php">
                                 <img class="logo1" alt="logo" src="images/logo.png">
                             </a>
                         </div><!--/.logo-clean-->
@@ -275,7 +276,7 @@
                             <h3>Professional</h3>
                             <p class="box-sub-title">Auditions for enrollment</p>
                             <p>As the new academy gets up and running, Norman holds auditions for enrollment, which deepens the rivalry between Oz Academy and Horizon High.
-                            The Killjoy militia has everything they need to go to war, but as the battle begins, Aneela changes the entire game.</p>
+                            The Killjoy militia has everything they need to go to war, but as the battle begins, Aneela changes the entire game.</p>                            
                             <div class="spacing40 clearboth"></div>
                         </div><!--/.box-with-icon-->
                     </div><!--./col-md-4-->
@@ -342,7 +343,13 @@
         </div><!--/about-->
         <!--ABOUT END-->
 
-
+<!-- Prueba -->
+<?php
+    include("conexion.php");
+    $Coneccion = new conexion();
+    $Coneccion -> recuperarDatos();
+?>
+<!-- Fin Prueba -->
 
         <!--TESTIMONIAL START-->
         <div class="white-bg with-bg content">

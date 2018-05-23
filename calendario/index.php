@@ -105,6 +105,8 @@ if(isset($_SESSION["usuario"]) && isset($_SESSION["pass"]))
         <script src="<?=$base_url?>js/bootstrap-datetimepicker.js"></script>
         <link rel="stylesheet" href="<?=$base_url?>css/bootstrap-datetimepicker.min.css" />
        <script src="<?=$base_url?>js/bootstrap-datetimepicker.es.js"></script>
+       
+       
     </head>
 
 </head>
@@ -159,6 +161,7 @@ if(isset($_SESSION["usuario"]) && isset($_SESSION["pass"]))
 
     <script src="<?=$base_url?>js/underscore-min.js"></script>
     <script src="<?=$base_url?>js/calendar.js"></script>
+    
     <script type="text/javascript">
         (function($){
                 //creamos la fecha actual
@@ -334,6 +337,9 @@ if(isset($_SESSION["usuario"]) && isset($_SESSION["pass"]))
   </div>
 </div>
 </div>
+
+
+
 </body>
 </html>
 <?php
