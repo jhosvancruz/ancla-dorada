@@ -340,12 +340,6 @@
 
 
 
-<<<<<<< HEAD
-=======
-<!-- Prueba -->
-
-<!-- Fin Prueba -->
->>>>>>> e3379c0be82538b34c472412d8ecc02056ec8cfc
 
 
 
@@ -909,7 +903,6 @@ return (key <= 13 || (key >= 48 && key <= 57));
                                    </p>
                                    <div class="clearfix"></div>
                                    <a href="#" class="contact-btn">Send Message</a>
-                                   <input value='<?php echo $Conexion -> recuperarDatos();?>' style="width: 100%; line-height:200px;">
                                </form>
                             </div><!--MainContent-->
                             </div><!--form-inner-->
