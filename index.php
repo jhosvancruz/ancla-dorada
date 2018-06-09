@@ -39,16 +39,7 @@
 
 	<body class="multi-page">
 
-		<!-- Preloader -->
-        <div id="preloader">
-            <div id="status">
-                <div class="spinner">
-                  <div class="bounce1"></div>
-                  <div class="bounce2"></div>
-                  <div class="bounce3"></div>
-                </div>
-            </div><!--status-->
-        </div><!--/preloader-->
+
 
 
         <!--HEADER START-->
@@ -59,14 +50,14 @@
 
                         <div class="logo-clean">
                             <a href="index.php">
-                                <img class="logo1" alt="logo" src="images/logo.png">
+                                <img class="logo1" alt="logo" src="images/AD_TIPOGRAFIA_BLANCO-01.png">
                             </a>
                         </div><!--/.logo-clean-->
 
                         <div class="box-header hidden-xs hidden-sm">
                             <div class="menu-box">
                                 <ul class="navigation">
-                                    <li><a href="#home">Home</a></li>
+                                    <li><a href="#home">Inicio</a></li>
                                     <li><a href="#works">Works</a></li>
                                     <li><a href="#about">About</a></li>
 									<li><a href="#gallery">Gallery</a></li>
@@ -101,7 +92,7 @@
         <!--HEADER END-->
 
         <!--YOUTUBE BACKGROUND-->
-        <div class="bg-youtube" data-property="{videoURL:'http://www.youtube.com/watch?v=Kpqbstq7tOM', opacity:1, autoPlay:true, containment:'.home-slider', startAt:0, stopAt:0, mute:true, optimizeDisplay:true, showControls:false, printUrl:true, loop:true, addRaster:false, quality:'hd1080', realfullscreen:'true', ratio:'auto'}"></div>
+        <div class="bg-youtube" data-property="{videoURL:'http://www.youtube.com/watch?v=5Nwomy6fjNg', opacity:1, autoPlay:true, containment:'.home-slider', startAt:0, stopAt:0, mute:true, optimizeDisplay:true, showControls:false, printUrl:true, loop:true, addRaster:false, quality:'hd1080', realfullscreen:'true', ratio:'auto'}"></div>
         <!--YOUTUBE BACKGROUND END-->
 
         <!--HOME SLIDER START-->
@@ -114,7 +105,7 @@
                 <div class="slider-box container-fluid">
                     <div class="slider-content">
                     	<div class="slider-hidden">
-                        	<h3 class="slider-title slider-title-big" data-animation="fadeIn" data-duration="2s" data-delay="0.8s">Avengers Infinity War<span>.</span></h3>
+                        	<h3 class="slider-title slider-title-big" data-animation="fadeIn" data-duration="2s" data-delay="0.8s">        </h3>
                         </div><!--/.slider-hidden-->
 
 
@@ -124,7 +115,98 @@
 
        	</div><!--/.home-slider-->
         <!--HOME SLIDER END-->
+        <!--ABOUT START-->
+        <div id="about" class="content clearfix">
+          <div class="container-fluid">
 
+                <div class="content-box-title">
+                  <div class="slider-hidden">
+                      <h2 class="content-title animated" data-animated="fadeInUp">The Expertise and <br>The Process we Provided</h2>
+                    </div><!--slider-hidden-->
+
+                    <div class="content-line animated" data-animated="swashIn" data-delay="0.2s"></div>
+
+                    <p class="animated" data-animated="fadeInDown" data-delay="0.4s">
+                      Somos una empresa con un concepto único de experiencias en yates de lujo todo incluido, actividades, alimentos y bebidas, souvenirs.
+        No importa que estas celebrando, o incluso sin motivo alguno, date la oportunidad de vivir una experiencia de lujo que jamás olvidaras, pero seguro vas a querer repetir, déjanos consentirte en   <br>     ANCLA DORADA MEXICO.
+
+                    </p>
+                </div><!--/content-box-title-->
+
+              <div class="row">
+
+                  <div class="col-md-4">
+                      <div class="box-with-icon">
+                          <i class="fa fa-bell-o"></i>
+                            <h3>Professional</h3>
+                            <p class="box-sub-title">Auditions for enrollment</p>
+                            <p>As the new academy gets up and running, Norman holds auditions for enrollment, which deepens the rivalry between Oz Academy and Horizon High.
+                            The Killjoy militia has everything they need to go to war, but as the battle begins, Aneela changes the entire game.</p>
+                            <div class="spacing40 clearboth"></div>
+                        </div><!--/.box-with-icon-->
+                    </div><!--./col-md-4-->
+
+                   <div class="col-md-4">
+                      <div class="box-with-icon">
+                          <i class="fa fa-paper-plane-o"></i>
+                            <h3>Expectation</h3>
+                            <p class="box-sub-title">The battle begins</p>
+                            <p>As the new academy gets up and running, Norman holds auditions for enrollment, which deepens the rivalry between Oz Academy and Horizon High.
+                            The Killjoy militia has everything they need to go to war, but as the battle begins, Aneela changes the entire game.</p>
+                            <div class="spacing40 clearboth"></div>
+                        </div><!--/.box-with-icon-->
+                    </div><!--./col-md-4-->
+
+                    <div class="col-md-4">
+                      <div class="box-with-icon">
+                          <i class="fa fa-life-ring"></i>
+                            <h3>Enjoyable</h3>
+                            <p class="box-sub-title">Deepens the rivalry</p>
+                            <p>As the new academy gets up and running, Norman holds auditions for enrollment, which deepens the rivalry between Oz Academy and Horizon High.
+                            The Killjoy militia has everything they need to go to war, but as the battle begins, Aneela changes the entire game.</p>
+                            <div class="spacing40 clearboth"></div>
+                        </div><!--/.box-with-icon-->
+                    </div><!--./col-md-4-->
+
+                    <div class="col-md-4">
+                      <div class="box-with-icon">
+                          <i class="fa fa-cubes"></i>
+                            <h3>Hustler</h3>
+                            <p class="box-sub-title">The entire game</p>
+                            <p>As the new academy gets up and running, Norman holds auditions for enrollment, which deepens the rivalry between Oz Academy and Horizon High.
+                            The Killjoy militia has everything they need to go to war, but as the battle begins, Aneela changes the entire game.</p>
+                            <div class="spacing40 clearboth"></div>
+                        </div><!--/.box-with-icon-->
+                    </div><!--./col-md-4-->
+
+
+                    <div class="col-md-4">
+                      <div class="box-with-icon">
+                          <i class="fa fa-heartbeat"></i>
+                            <h3>Challengers</h3>
+                            <p class="box-sub-title">Academy gets up</p>
+                            <p>As the new academy gets up and running, Norman holds auditions for enrollment, which deepens the rivalry between Oz Academy and Horizon High.
+                            The Killjoy militia has everything they need to go to war, but as the battle begins, Aneela changes the entire game.</p>
+                            <div class="spacing40 clearboth"></div>
+                        </div><!--/.box-with-icon-->
+                    </div><!--./col-md-4-->
+
+                    <div class="col-md-4">
+                      <div class="box-with-icon">
+                          <i class="fa fa-mortar-board"></i>
+                            <h3>Advanced</h3>
+                            <p class="box-sub-title">Go to war</p>
+                            <p>As the new academy gets up and running, Norman holds auditions for enrollment, which deepens the rivalry between Oz Academy and Horizon High.
+                            The Killjoy militia has everything they need to go to war, but as the battle begins, Aneela changes the entire game.</p>
+                            <div class="spacing40 clearboth"></div>
+                        </div><!--/.box-with-icon-->
+                    </div><!--./col-md-4-->
+
+
+                </div><!--/.row-->
+            </div><!--/.container-fluid-->
+        </div><!--/about-->
+        <!--ABOUT END-->
 		<!--WORKS START-->
         <div id="works" class="clearfix white-bg">
 
@@ -256,246 +338,19 @@
         </div><!--/works-->
         <!--WORKS END-->
 
-        <!--ABOUT START-->
-        <div id="about" class="content clearfix">
-        	<div class="container-fluid">
-
-                <div class="content-box-title">
-                	<div class="slider-hidden">
-                    	<h2 class="content-title animated" data-animated="fadeInUp">The Expertise and <br>The Process we Provided</h2>
-                    </div><!--slider-hidden-->
-
-                    <div class="content-line animated" data-animated="swashIn" data-delay="0.2s"></div>
-
-                    <p class="animated" data-animated="fadeInDown" data-delay="0.4s">
-                    	Laura is betrayed by Tom and learns that Serena is at the TV station and fears her daughter will suffer the same original fate she did.
-                        Meanwhile, Nico tries to get his hands on evidence that could help save his brother.
-                    </p>
-                </div><!--/content-box-title-->
-
-            	<div class="row">
-
-                	<div class="col-md-4">
-                    	<div class="box-with-icon">
-                        	<i class="fa fa-bell-o"></i>
-                            <h3>Professional</h3>
-                            <p class="box-sub-title">Auditions for enrollment</p>
-                            <p>As the new academy gets up and running, Norman holds auditions for enrollment, which deepens the rivalry between Oz Academy and Horizon High.
-                            The Killjoy militia has everything they need to go to war, but as the battle begins, Aneela changes the entire game.</p>                            
-                            <div class="spacing40 clearboth"></div>
-                        </div><!--/.box-with-icon-->
-                    </div><!--./col-md-4-->
-
-                   <div class="col-md-4">
-                    	<div class="box-with-icon">
-                        	<i class="fa fa-paper-plane-o"></i>
-                            <h3>Expectation</h3>
-                            <p class="box-sub-title">The battle begins</p>
-                            <p>As the new academy gets up and running, Norman holds auditions for enrollment, which deepens the rivalry between Oz Academy and Horizon High.
-                            The Killjoy militia has everything they need to go to war, but as the battle begins, Aneela changes the entire game.</p>
-                            <div class="spacing40 clearboth"></div>
-                        </div><!--/.box-with-icon-->
-                    </div><!--./col-md-4-->
-
-                    <div class="col-md-4">
-                    	<div class="box-with-icon">
-                        	<i class="fa fa-life-ring"></i>
-                            <h3>Enjoyable</h3>
-                            <p class="box-sub-title">Deepens the rivalry</p>
-                            <p>As the new academy gets up and running, Norman holds auditions for enrollment, which deepens the rivalry between Oz Academy and Horizon High.
-                            The Killjoy militia has everything they need to go to war, but as the battle begins, Aneela changes the entire game.</p>
-                            <div class="spacing40 clearboth"></div>
-                        </div><!--/.box-with-icon-->
-                    </div><!--./col-md-4-->
-
-                    <div class="col-md-4">
-                    	<div class="box-with-icon">
-                        	<i class="fa fa-cubes"></i>
-                            <h3>Hustler</h3>
-                            <p class="box-sub-title">The entire game</p>
-                            <p>As the new academy gets up and running, Norman holds auditions for enrollment, which deepens the rivalry between Oz Academy and Horizon High.
-                            The Killjoy militia has everything they need to go to war, but as the battle begins, Aneela changes the entire game.</p>
-                            <div class="spacing40 clearboth"></div>
-                        </div><!--/.box-with-icon-->
-                    </div><!--./col-md-4-->
 
 
-                    <div class="col-md-4">
-                    	<div class="box-with-icon">
-                        	<i class="fa fa-heartbeat"></i>
-                            <h3>Challengers</h3>
-                            <p class="box-sub-title">Academy gets up</p>
-                            <p>As the new academy gets up and running, Norman holds auditions for enrollment, which deepens the rivalry between Oz Academy and Horizon High.
-                            The Killjoy militia has everything they need to go to war, but as the battle begins, Aneela changes the entire game.</p>
-                            <div class="spacing40 clearboth"></div>
-                        </div><!--/.box-with-icon-->
-                    </div><!--./col-md-4-->
+<<<<<<< HEAD
+=======
+<!-- Prueba -->
 
-                    <div class="col-md-4">
-                    	<div class="box-with-icon">
-                        	<i class="fa fa-mortar-board"></i>
-                            <h3>Advanced</h3>
-                            <p class="box-sub-title">Go to war</p>
-                            <p>As the new academy gets up and running, Norman holds auditions for enrollment, which deepens the rivalry between Oz Academy and Horizon High.
-                            The Killjoy militia has everything they need to go to war, but as the battle begins, Aneela changes the entire game.</p>
-                            <div class="spacing40 clearboth"></div>
-                        </div><!--/.box-with-icon-->
-                    </div><!--./col-md-4-->
-
-
-                </div><!--/.row-->
-            </div><!--/.container-fluid-->
-        </div><!--/about-->
-        <!--ABOUT END-->
-
-
-        <!--TESTIMONIAL START-->
-        <div class="white-bg with-bg content">
-        	<div class="img-bg full-img-bg" data-background="images/bg/3.jpg" data-stellar-background-ratio="0.8"></div>
-            <div class="slider-mask"></div>
-        	<div class="container-fluid">
-                <div id="testimonial" class="testi-slider">
-
-                    <div>
-                        <p>
-                            An Irish sports journalist becomes convinced that Lance Armstrong’s performances during the Tour de France
-                            victories are fueled by banned substances !!
-                        </p>
-                        <i class="fa fa-quote-left"></i>
-                        <h3>Tanto Wiyahyo </h3>
-                        <p class="testi-from">Makeup Artist</p>
-                    </div>
-
-                    <div>
-                        <p>
-                            It is the only event of the summer in which teens control the power of the votes,
-                            by selecting new award categories and favorite categories from past ?!
-                        </p>
-                        <i class="fa fa-quote-left"></i>
-                        <h3>Anto Norman</h3>
-                        <p class="testi-from">Trance Dancer</p>
-                    </div>
-
-                    <div>
-                        <p>
-                            Devoted lifeguard Mitch Buchannon butts heads with a brash new recruit, as they uncover a criminal plot that
-                            threatens the future of the bay !
-                        </p>
-                        <i class="fa fa-quote-left"></i>
-                        <h3>Kania Dewi</h3>
-                        <p class="testi-from">Nascar Driver</p>
-                    </div>
-
-                </div><!--/.testimonial-->
-            </div><!--/.container-fluid-->
-        </div><!--/white-bg-->
-        <!--TESTIMONIAL END-->
+<!-- Fin Prueba -->
+>>>>>>> e3379c0be82538b34c472412d8ecc02056ec8cfc
 
 
 
-        <!--TEAM START-->
-        <div id="team" class="content">
-        	<div class="container-fluid">
-            	<div class="content-box-title">
-                	<div class="slider-hidden">
-                    	<h2 class="content-title animated" data-animated="fadeInUp">The People that Do<br> All the Magic</h2>
-                    </div><!--slider-hidden-->
 
-                    <div class="content-line animated" data-animated="swashIn" data-delay="0.2s"></div>
 
-                    <p class="animated" data-animated="fadeInDown" data-delay="0.4s">
-                    	Laura is betrayed by Tom and learns that Serena is at the TV station and fears her daughter will suffer the same original fate she did.
-                        Meanwhile, Nico tries to get his hands on evidence that could help save his brother.
-                    </p>
-                </div><!--/content-box-title-->
-
-                <div class="row team-list team-list-two">
-                	<div class="col-md-3 ani-width">
-                    	<div class="port-inner">
-                            <div class="port-box"></div>
-                            <div class="port-img width-img img-bg" data-background="images/team/3.jpg"></div>
-                            <div class="img-mask"></div>
-                            <div class="port-dbox">
-                                <div class="dbox-relative">
-                                    <h3>Annisa Bakar</h3>
-                                    <p>Web Developer</p>
-                                    <ul class="team-sicon">
-                                    	<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    </ul><!--/.team-sicon-->
-                                </div><!--/.dbox-relative-->
-                            </div><!--/.port-dbox-->
-                        </div><!--/.port-inner-->
-                    </div><!--.port-item-->
-
-                    <div class="col-md-3 ani-width" data-delay="0.2s">
-                    	<div class="port-inner">
-                            <div class="port-box"></div>
-                            <div class="port-img width-img img-bg" data-background="images/team/4.jpg"></div>
-                            <div class="img-mask"></div>
-                            <div class="port-dbox">
-                                <div class="dbox-relative">
-                                    <h3>Inul Daratisna</h3>
-                                    <p>Web Designer</p>
-                                    <ul class="team-sicon">
-                                    	<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    </ul><!--/.team-sicon-->
-                                </div><!--/.dbox-relative-->
-                            </div><!--/.port-dbox-->
-                        </div><!--/.port-inner-->
-                    </div><!--.port-item-->
-
-                    <div class="col-md-3 ani-width" data-delay="0.4s">
-                    	<div class="port-inner">
-                            <div class="port-box"></div>
-                            <div class="port-img width-img img-bg" data-background="images/team/1.jpg"></div>
-                            <div class="img-mask"></div>
-                            <div class="port-dbox">
-                                <div class="dbox-relative">
-                                    <h3>Ikke Nurjano</h3>
-                                    <p>Photograper</p>
-                                    <ul class="team-sicon">
-                                    	<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                    </ul><!--/.team-sicon-->
-                                </div><!--/.dbox-relative-->
-                            </div><!--/.port-dbox-->
-                        </div><!--/.port-inner-->
-                    </div><!--.port-item-->
-
-                    <div class="col-md-3 ani-width" data-delay="0.4s">
-                    	<div class="port-inner">
-                            <div class="port-box"></div>
-                            <div class="port-img width-img img-bg" data-background="images/team/2.jpg"></div>
-                            <div class="img-mask"></div>
-                            <div class="port-dbox">
-                                <div class="dbox-relative">
-                                    <h3>Linda Maharjo</h3>
-                                    <p>UIX Designer</p>
-                                    <ul class="team-sicon">
-                                    	<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                    </ul><!--/.team-sicon-->
-                                </div><!--/.dbox-relative-->
-                            </div><!--/.port-dbox-->
-                        </div><!--/.port-inner-->
-                    </div><!--.port-item-->
-
-                    <br>
-            	</div><!--.row-->
-				<br>
-            </div><!--/.container-fluid-->
-        </div><!--/.team-->
-    	<!--TEAM END-->
          <!--WORKS START-->
 
         <div id="gallery" class="clearfix white-bg">
@@ -1055,30 +910,22 @@ return (key <= 13 || (key >= 48 && key <= 57));
         </div><!--/.table-box-->
 
         <!--GOOGLE MAP START-->
-        <div class="clearfix">
 
-        	<div id="map_canvas" class="map_canvas"><!--DISPLAY GOOGLE MAP HERE--></div>
-
-        </div><!--/.clearfix-->
         <!--GOOGLE MAP END-->
 
         <div class="transparent clearfix"><!--to create margin bottom on contact section--></div>
 
         <footer class="footer footer-two clearfix">
 			<div class="container-fluid">
-            	<img class="footer-img" src="images/footer.png"	 alt="logo">
-                <p> 11231 Buah Batu Bandung - Jawa barat Indonesia</p>
-                <p>Made with <i class="fa fa-coffee"></i> in Bandung  &copy;2017 <a href="#">yoursite.com</a></p>
+            	<img class="footer-img" src="images/footer-logo2.png"	 alt="logo">
+
                 <ul class="footer-icon">
                     <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-vk"></i></a></li>
-                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
                     <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                     <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                    <li><a href="#"><i class="fa fa-xing"></i></a></li>
-                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                    <li><a href="http://localhost/ancla-dorada/calendario/login/vista/"><i class="glyphicon glyphicon-log-in-light "></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+
+                    <li><a href="http://localhost/ancla-dorada/calendario/login/vista/"><i class="fal fa-sign-in-alt "></i></a></li>
                 </ul><!--/.footer-icon-->
 			</div><!--/.container-fluid-->
 		</footer><!--/.footer-->

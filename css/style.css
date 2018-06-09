@@ -54,7 +54,7 @@ a {
 }
 a:hover {
 	text-decoration: none;
-	color: #ff1744;
+	color: #bc952c;
 }
 
 a:focus {
@@ -150,7 +150,7 @@ blockquote::before{
 }
 .dark-bg .content-title{color:#fff;}
 .content-title span {
-    color: #ff1744;
+    color: #2e386f;
 }
 .content-line {
     height: 1px;
@@ -251,7 +251,7 @@ blockquote::before{
 .to-top:focus{color:#fff;}
 .to-top:hover{color:#fff;}
 .to-top::before {
-    background:#ff1744 none repeat scroll 0 0;
+    background:#2e386f none repeat scroll 0 0;
     border-radius: 200px;
 	opacity:0.3;
     content: "";
@@ -273,7 +273,7 @@ blockquote::before{
     transition-duration: 0.8s;
 }
 .to-top::after {
-    background: #ff1744  none repeat scroll 0 0;
+    background: #2e386f  none repeat scroll 0 0;
     border-radius: 200px;
     content: "";
 	opacity:0.3;
@@ -313,7 +313,7 @@ blockquote::before{
 	width: 50%;
 	position:relative;
 }
-.table-content h3 > span{color:#ff1744;}
+.table-content h3 > span{color:#020071;}
 .table-content.box-30 h3 {
     display: inline-block;
     text-align: left;
@@ -332,7 +332,7 @@ blockquote::before{
 .box-small-icon > i {
     font-size: 40px;
 	margin-bottom:20px;
-    color: #ff1744;
+    color: #2e386f;
     margin: auto;
     display: block;
     text-align: center;
@@ -354,10 +354,10 @@ blockquote::before{
     background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
 }
 .cell-left-border {
-    border-left: 10px solid #ff1744;
+    border-left: 10px solid #2e386f;
 }
 .cell-right-border {
-    border-right: 10px solid #ff1744;
+    border-right: 10px solid #2e386f;
 }
 .table-content h3 {
     font-size: 60px;
@@ -367,7 +367,7 @@ blockquote::before{
     color: #fff;
 }
 .dark-page .color-bg, .color-bg  {
-    background: #ff1744;
+    background: #2e386f;
 }
 .color-bg .content-btn {
     border: 1px solid;
@@ -387,7 +387,7 @@ blockquote::before{
     margin: 60px 0 100px;
 }
 .slider-title span {
-    color: #ff1744;
+    color: #2e386f;
 }
 .hero-box{background:#fff;}
 .hero-title {
@@ -396,7 +396,7 @@ blockquote::before{
     text-transform: capitalize;
 }
 .hero-title span{
-	color:#ff1744;
+	color:#2e386f;
 }
 .hero-padding {
     text-align: center;
@@ -447,8 +447,8 @@ blockquote::before{
 	background:#333;
 }
 .dark-page .com-btn {
-    background: #ff1744 none repeat scroll 0 0;
-	border-color:#ff1744;
+    background: #2e386f none repeat scroll 0 0;
+	border-color:#2e386f;
 }
 .dark-page .pagination > li > a, .dark-page .pagination > li > span {
     background: #3333;
@@ -456,8 +456,8 @@ blockquote::before{
 }
 .dark-page .pagination > li > a:hover,.dark-page .pagination > .active  > a{
 	color:#fff;
-	background-color: #ff1744;
-	border-color: #ff1744;
+	background-color: #2e386f;
+	border-color: #2e386f;
 }
 /*-----------------------------HEADER SECTION-----------------------------------*/
 
@@ -727,7 +727,7 @@ background-position: 50% 50%;
 }
 .btn-relative{overflow:hidden;display:inline-block;}
 .slider-btn {
-    background: #ff1744 none repeat scroll 0 0;
+    background: #2e386f none repeat scroll 0 0;
     color: #fff;
 	display: inline-block;
     font-family: 'Montserrat', sans-serif;
@@ -741,7 +741,7 @@ background-position: 50% 50%;
 	 -webkit-transition-duration: 1.5s;
     transition-duration: 1.5s;
 }
-.slider-btn:hover{color:#ff1744;}
+.slider-btn:hover{color:#2e386f;}
 .slider-btn::before {
     background: #eee none repeat scroll 0 0;
     border-radius: 200px;
@@ -802,7 +802,7 @@ background-position: 50% 50%;
 .left-box-slider .slider-line {
     margin: 0;
     margin-bottom: 25px;
-    background: #ff1744;
+    background: #2e386f;
     height: 5px;
     width: 150px;
     margin-top: -15px;
@@ -850,7 +850,7 @@ background-position: 50% 50%;
 .box-with-icon .fa {
     position: absolute;
     display: inline-block;
-    color: #ff1744 ;
+    color: #bc952c ;
     left:10px;
     font-size: 50px;
     top: 0;
@@ -875,9 +875,9 @@ background-position: 50% 50%;
     margin-bottom: 80px;
 }
 .content-btn {
-    background: #ff1744 none repeat scroll 0 0;
+    background: #2e386f none repeat scroll 0 0;
     color: #fff;
-	border:1px solid #ff1744;
+	border:1px solid #2e386f;
 	display: inline-block;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -890,7 +890,7 @@ background-position: 50% 50%;
 	 -webkit-transition-duration: 1.5s;
     transition-duration: 1.5s;
 }
-.content-btn:hover{color:#ff1744;border:1px solid #ff1744;}
+.content-btn:hover{color:#2e386f;border:1px solid #2e386f;}
 .content-btn::before {
     background: #eee none repeat scroll 0 0;
     border-radius: 200px;
@@ -973,7 +973,7 @@ background-position: 50% 50%;
 	padding: 0 20px;
 }
 .team-list-two .team-sicon li a{
-	color:#ff1744;
+	color:#2e386f;
 }
 /*-----------------------------WORKS SECTION-----------------------------------*/
 .port-item {
@@ -1085,7 +1085,7 @@ background-position: 50% 50%;
 }
 .port-filter a.active {
     color: #fff;
-    background: #ff1744;
+    background: #2e386f;
 }
 .port-filter a {
     background: transparent;
@@ -1098,11 +1098,11 @@ background-position: 50% 50%;
     position: relative;
     overflow: hidden;
     font-weight: 600;
-    color: #ff1744;
+    color: #2e386f;
 }
 .port-filter a:hover{color:#fff;}
 .port-filter a::before {
-    background: #ff1744 none repeat scroll 0 0;
+    background: #2e386f none repeat scroll 0 0;
 	opacity:0.3;
     border-radius: 200px;
     content: "";
@@ -1124,7 +1124,7 @@ background-position: 50% 50%;
     transition-duration: 0.8s;
 }
 .port-filter a::after {
-    background: #ff1744 none repeat scroll 0 0;
+    background: #2e386f none repeat scroll 0 0;
     border-radius: 200px;
     content: "";
 	opacity:0.3;
@@ -1182,7 +1182,7 @@ background-position: 50% 50%;
     -webkit-transform: scale(1);
 }
 .dbox-relative {
-    background: #ff1744;
+    background: #2e386f;
     opacity: 0;
     padding: 20px 40px;
     transition: 0.3s;
@@ -1210,7 +1210,7 @@ background-position: 50% 50%;
     -webkit-transform: scale(1) translateY(0);
 }
 .portfolio-type-two .dbox-relative p {
-    color: #ff1744;
+    color: #c99716;
     opacity: 1;
 }
 .other-portfolio .port-box {
@@ -1258,7 +1258,7 @@ background-position: 50% 50%;
 }
 .swork-line {
     margin-bottom: 25px;
-    background: #ff1744;
+    background: #2e386f;
     height: 5px;
     width: 150px;
     margin-top: -15px;
@@ -1295,7 +1295,7 @@ background-position: 50% 50%;
     line-height: 50px;
     margin: 20px;
     width: 50px;
-    background: #ff1744;
+    background: #2e386f;
     color: #fff;
 }
 .with-bg #testimonial p ,.with-bg #testimonial h3 {color:#fff;}
@@ -1389,9 +1389,9 @@ input:focus, textarea:focus {
     width: auto;
 }
 .contact-btn {
-    background: #ff1744 none repeat scroll 0 0;
+    background: #2e386f none repeat scroll 0 0;
     color: #fff;
-	border:1px solid #ff1744;
+	border:1px solid #2e386f;
 	display: inline-block;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -1404,7 +1404,7 @@ input:focus, textarea:focus {
 	 -webkit-transition-duration: 1.5s;
     transition-duration: 1.5s;
 }
-.contact-btn:hover{color:#ff1744;border:1px solid #ff1744;}
+.contact-btn:hover{color:#2e386f;border:1px solid #2e386f;}
 .contact-btn::before {
     background: #eee none repeat scroll 0 0;
     border-radius: 200px;
@@ -1489,7 +1489,7 @@ input:focus, textarea:focus {
 .footer-img {
     margin-bottom: 40px;
 }
-.footer a{color:#ff1744;}
+.footer a{color:#2e386f;}
 .footer a:hover{color:#fff;}
 /*-----------------------------BLOG SECTION-----------------------------------*/
 .blog-header {
@@ -1520,7 +1520,7 @@ input:focus, textarea:focus {
 	transition:ease .5s;
 }
 .blog-post-list a:hover h4 {
-    color: #ff1744;
+    color: #2e386f;
 }
 .blog-box {
 	margin: 0 15px;
@@ -1601,7 +1601,7 @@ input:focus, textarea:focus {
     margin-right: 20px;
 }
 .post-detail > li i {
-    background: #ff1744 none repeat scroll 0 0;
+    background: #2e386f none repeat scroll 0 0;
     border-radius: 100px;
     color: #fff;
     display: inline-block;
@@ -1621,8 +1621,8 @@ input:focus, textarea:focus {
     margin-top: 40px;
 }
 .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
-    background-color: #ff1744  ;
-    border-color: #ff1744  ;
+    background-color: #2e386f  ;
+    border-color: #2e386f  ;
     color: #FFFFFF;
     cursor: default;
     z-index: 2;
@@ -1731,7 +1731,7 @@ transition:0.3s;
 }
 #searchform #s:focus{border-color:#aaa;}
 #searchform #searchsubmit {
-    background: url("../images/search.png") no-repeat scroll center center #ff1744  ;
+    background: url("../images/search.png") no-repeat scroll center center #2e386f  ;
     height: 30px;
 	border-radius:100px;
     right: 10px;
@@ -1755,8 +1755,8 @@ transition:0.3s;
     margin-bottom: 5px;
 }
 .tagcloud a {
-    border: 1px solid #ff1744;
-    color: #ff1744;
+    border: 1px solid #2e386f;
+    color: #2e386f;
     display: inline-block;
 	background:transparent;
     font-size: 11px;
@@ -1765,7 +1765,7 @@ transition:0.3s;
     padding: 6px 17px;
     text-transform: uppercase;
 }
-.tagcloud a:hover{color:#fff;background:#ff1744 ;}
+.tagcloud a:hover{color:#fff;background:#2e386f ;}
 
 
 .widget-about-us {
@@ -1786,7 +1786,7 @@ transition:0.3s;
     z-index: 1;
 }
 .bordering-widget {
-    background:#ff1744;
+    background:#2e386f;
     color: #fff;
     margin: 20%;
     padding: 20px;
@@ -1819,7 +1819,7 @@ transition:0.3s;
 .abtw-soc a {
     border: 1px solid;
     border-radius: 100px;
-    color: #ff1744;
+    color: #2e386f;
     display: inline-block;
     height: 30px;
     line-height: 28px;
@@ -1827,8 +1827,8 @@ transition:0.3s;
 }
 .abtw-soc a:hover{
 	color:#fff;
-	background:#ff1744;
-	border-color:#ff1744;
+	background:#2e386f;
+	border-color:#2e386f;
 }
 
 /*-------------COMMENTS SECTION-------------*/
@@ -1878,9 +1878,9 @@ transition:0.3s;
     padding: 20px 0;
 }
 .com-btn {
-	background: #ff1744 none repeat scroll 0 0;
+	background: #2e386f none repeat scroll 0 0;
 	color: #fff;
-	border: 1px solid #ff1744;
+	border: 1px solid #2e386f;
 	display: inline-block;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
@@ -1890,7 +1890,7 @@ transition:0.3s;
 	position: relative;
 	overflow: hidden;
 	z-index: 1;
-	border:1px solid #ff1744;
+	border:1px solid #2e386f;
 	width:auto;
 	-webkit-transition: all 0.3s ease 0s;
 	-moz-transition: all 0.3s ease 0s;
@@ -1898,7 +1898,7 @@ transition:0.3s;
 	-ms-transition: all 0.3s ease 0s;
 }
 
-.com-btn:hover{background:transparent ;color:#ff1744 ;border:1px solid #ff1744;}
+.com-btn:hover{background:transparent ;color:#2e386f ;border:1px solid #2e386f;}
 .comment-top > span {
     display: block;
     font-size: 12px;
