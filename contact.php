@@ -3,10 +3,12 @@ $toEmail 		= "asd@asdasd"; //Replace it recipient email address
 $subject 		= 'Ah!! My email from Somebody out there...'; //Subject line for emails
 
 //Let's clean harmful characters from raw POST data using PHP Sanitize filters.
-$postName 		= filter_var($_POST["postName"], FILTER_SANITIZE_STRING); 
-$postEmail 		= filter_var($_POST["postEmail"], FILTER_SANITIZE_EMAIL);
-$postPhone 		= filter_var($_POST["postPhone"], FILTER_SANITIZE_STRING);
-$postMessage 	= filter_var($_POST["postMessage"], FILTER_SANITIZE_STRING);
+$postName 		       = filter_var($_POST["postName"], FILTER_SANITIZE_STRING); 
+$postEmail 		       = filter_var($_POST["postEmail"], FILTER_SANITIZE_EMAIL);
+$postPhone 		       = filter_var($_POST["postPhone"], FILTER_SANITIZE_STRING);
+$postDatepicker	       = filter_var($_POST["postPhone"], FILTER_SANITIZE_STRING);
+$postOtherDatepicker   = filter_var($_POST["postPhone"], FILTER_SANITIZE_STRING);
+$postMessage 	       = filter_var($_POST["postMessage"], FILTER_SANITIZE_STRING);
 
 //Let's put additional php validation here
 if(strlen($postName)<1) // If length is less than 1 we will throw an HTTP error.
@@ -23,6 +25,16 @@ if(strlen($postEmail)<1)
 if(strlen($postPhone)<1)
 {
 	header('HTTP/1.1 500 Phone Field Empty'); 
+	exit();
+}
+if(strlen($postDatepicker)<1)
+{
+	header('HTTP/1.1 500 Fecha inicio Field Empty'); 
+	exit();
+}
+if(strlen($postOtherDatepicker)<1)
+{
+	header('HTTP/1.1 500 Fecha final Field Empty'); 
 	exit();
 }
 if(strlen($postMessage)<1)
@@ -48,6 +60,14 @@ $Body .= "\n";
 $Body .= "\n";
 $Body .= "Phone: ";
 $Body .= $postPhone;
+$Body .= "\n";
+$Body .= "\n";
+$Body .= "Fecha inicio: ";
+$Body .= $postDatepicker;
+$Body .= "\n";
+$Body .= "\n";
+$Body .= "Fecha final: ";
+$Body .= $postOtherDatepicker;
 $Body .= "\n";
 $Body .= "\n";
 $Body .= "Message: ";

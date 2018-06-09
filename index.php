@@ -833,6 +833,14 @@
 					beforeShowDay: noWeekendsOrHolidays
 				  });
 				});
+        
+                jQuery(document).ready(function() {
+				  jQuery('#otherdatepicker').datepicker({
+					dateFormat: 'd/mm/yy',
+					constrainInput: true,
+					beforeShowDay: noWeekendsOrHolidays
+				  });
+				});
 				
 		
 		//$( "#datepicker" ).datepicker();
@@ -891,6 +899,9 @@ return (key <= 13 || (key >= 48 && key <= 57));
                                    </p>
                                    <p>
                                      <input for="datepicker" type="text" name="datepicker" class="form" id="datepicker" placeholder="Fecha inicio" readonly min="2016-11-08" max="2016-11-30" step="1">
+                                   </p>
+                                   <p>
+                                     <input for="otherdatepicker" type="text" name="otherdatepicker" class="form" id="otherdatepicker" placeholder="Fecha final" readonly min="2016-11-08" max="2016-11-30" step="1">
                                    </p>
                                    <p class="textarea">
                                    <textarea name="message" id="message" placeholder="Your Message ..." rows="5"></textarea>

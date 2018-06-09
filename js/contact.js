@@ -19,6 +19,8 @@
         var js_name = $("#name").val();
         var js_email = $("#email").val();
         var js_phone = $("#phone").val();
+        var js_datepicker = $("#datepicker").val();
+        var js_otherdatepicker = $("#otherdatepicker").val();
         var js_message = $("#message").val();
 
         // Do a simple validation
@@ -45,13 +47,21 @@
             $("#phoneLb .error").fadeIn('slow').idle(1000).fadeOut('slow');
             return false;
         }
+        if (js_datepicker == "") {
+            $("#datepickerLb .error").fadeIn('slow').idle(1000).fadeOut('slow');
+            return false;
+        }
+        if (js_otherdatepicker == "") {
+            $("#otherdatepickerLb .error").fadeIn('slow').idle(1000).fadeOut('slow');
+            return false;
+        }
         if (js_message == "") {
             $("#messageLb .error").fadeIn('slow').idle(1000).fadeOut('slow');
             return false;
         }
 
         //let's put all data together
-        var myData = 'postName=' + js_name + '&postEmail=' + js_email + '&postPhone=' + js_phone + '&postMessage=' + js_message;
+        var myData = 'postName=' + js_name + '&postEmail=' + js_email + '&postPhone=' + js_phone + '&postDatepicker=' + js_datepicker + '&postOtherDatepicker=' + js_otherdatepicker + '&postMessage=' + js_message;
 
         jQuery.ajax({
             type: "POST",
