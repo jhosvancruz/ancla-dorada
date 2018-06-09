@@ -296,11 +296,10 @@ if(isset($_SESSION["usuario"]) && isset($_SESSION["pass"]))
 
                     <label for="tipo">Tipo de evento</label>
                     <select class="form-control" name="class" id="tipo">
-                        <option value="event-info">Informacion</option>
-                        <option value="event-success">Exito</option>
-                        <option value="event-important">Importantante</option>
-                        <option value="event-warning">Advertencia</option>
-                        <option value="event-special">Especial</option>
+                        <option value="event-info">Graduación</option>
+                        <option value="event-success">Despedida de soltera</option>
+                        <option value="event-important">Propuesta matrimonial</option>
+                        <option value="event-warning">Recorrido familiar o con amigos</option>
                     </select>
 
                     <br>
