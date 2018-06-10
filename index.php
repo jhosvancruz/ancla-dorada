@@ -2,7 +2,7 @@
 <html lang="en">
        <head>
         <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-        <title>Kordon - Responsive Creative Portfolio Template</title>
+        <title>Ancla Dorada</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="">
         <meta name="author" content="">
@@ -31,7 +31,7 @@
         <link rel="shortcut icon" href="images/favicon.png"><!--favicon image-->
         
         <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-        <link rel="stylesheet" href="/resources/demos/style.css">
+
         <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     </head>
@@ -105,7 +105,7 @@
                 <div class="slider-box container-fluid">
                     <div class="slider-content">
                     	<div class="slider-hidden">
-                        	<h3 class="slider-title slider-title-big" data-animation="fadeIn" data-duration="2s" data-delay="0.8s">        </h3>
+                        	<h3 class="slider-title slider-title-big" data-animation="fadeIn" data-duration="2s" data-delay="0.8s">.</h3>
                         </div><!--/.slider-hidden-->
 
 
@@ -929,7 +929,7 @@ return (key <= 13 || (key >= 48 && key <= 57));
                     <li><a href="#"><i class="fa fa-youtube"></i></a></li>
                     <li><a href="#"><i class="fa fa-instagram"></i></a></li>
 
-                    <li><a href="http://localhost/ancla-dorada/calendario/login/vista/"><i class="fal fa-sign-in-alt "></i></a></li>
+                    <li><a href="http://localhost/calendario/login/vista/"><i class="fal fa-sign-in-alt "></i></a></li>
                 </ul><!--/.footer-icon-->
 			</div><!--/.container-fluid-->
 		</footer><!--/.footer-->
