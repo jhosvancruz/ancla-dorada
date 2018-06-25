@@ -58,10 +58,9 @@
                             <div class="menu-box">
                                 <ul class="navigation">
                                     <li><a href="#home">Inicio</a></li>
-                                    <li><a href="#works">Works</a></li>
-                                    <li><a href="#about">About</a></li>
-									<li><a href="#gallery">Gallery</a></li>
-                                    <li><a href="#contact">Contact</a></li>
+                                    <li><a href="#about">Paquetes</a></li>
+									<li><a href="#gallery">Galería</a></li>
+                                    <li><a href="#contact">Contacto</a></li>
 
                                 </ul>
                             </div><!--/.menu-box-->
@@ -105,7 +104,7 @@
                 <div class="slider-box container-fluid">
                     <div class="slider-content">
                     	<div class="slider-hidden">
-                        	<h3 class="slider-title slider-title-big" data-animation="fadeIn" data-duration="2s" data-delay="0.8s">.</h3>
+                        	<h3 class="slider-title slider-title-big" data-animation="fadeIn" data-duration="2s" data-delay="0.8s">&nbsp;</h3>
                         </div><!--/.slider-hidden-->
 
 
@@ -116,91 +115,185 @@
        	</div><!--/.home-slider-->
         <!--HOME SLIDER END-->
         <!--ABOUT START-->
-        <div id="about" class="content clearfix">
+        <div id="about" class="content clearfix eventos">
           <div class="container-fluid">
 
                 <div class="content-box-title">
                   <div class="slider-hidden">
-                      <h2 class="content-title animated" data-animated="fadeInUp">The Expertise and <br>The Process we Provided</h2>
+                      <h2 class="content-title animated" data-animated="fadeInUp">Experiencias Únicas <br>Todo Incluido</h2>
                     </div><!--slider-hidden-->
 
                     <div class="content-line animated" data-animated="swashIn" data-delay="0.2s"></div>
 
                     <p class="animated" data-animated="fadeInDown" data-delay="0.4s">
                       Somos una empresa con un concepto único de experiencias en yates de lujo todo incluido, actividades, alimentos y bebidas, souvenirs.
-        No importa que estas celebrando, o incluso sin motivo alguno, date la oportunidad de vivir una experiencia de lujo que jamás olvidaras, pero seguro vas a querer repetir, déjanos consentirte en   <br>     ANCLA DORADA MEXICO.
+                      No importa que estas celebrando, o incluso sin motivo alguno, date la oportunidad de vivir una experiencia de lujo que jamás olvidaras, pero seguro vas a querer repetir, déjanos consentirte en   <br>     ANCLA DORADA MEXICO.
 
                     </p>
                 </div><!--/content-box-title-->
 
               <div class="row">
-
-                  <div class="col-md-4">
+                  <style>
+                      .eventos span{
+                          color: #bc952c;
+                          font-size: 17.5px;
+                      }
+                      .eventos br{
+                          line-height: 5px;
+                      }
+                      .eventos li:not(.sin-decoracion){
+                          list-style-type: disc;
+                          line-height: 1.5;
+                          color: #2e386f;
+                      }
+                      .eventos li:not(.sin-decoracion) > *{
+                          color: #939393;
+                      }
+                      .sin-decoracion{
+                          list-style-type: none;
+                          margin-left: -20px;
+                      }
+                  </style>
+                  <div class="col-md-6">
                       <div class="box-with-icon">
                           <i class="fa fa-bell-o"></i>
-                            <h3>Professional</h3>
-                            <p class="box-sub-title">Auditions for enrollment</p>
-                            <p>As the new academy gets up and running, Norman holds auditions for enrollment, which deepens the rivalry between Oz Academy and Horizon High.
-                            The Killjoy militia has everything they need to go to war, but as the battle begins, Aneela changes the entire game.</p>
+                            <h3>Despedida de soltera</h3>
+                            <p class="box-sub-title">BACHELORETTE PARTY</p>
+                            <ul>
+                                <li class="sin-decoracion"><span>Alimentos y bebidas:</span></li>
+                                <li><span>Menú dorado</span></li>
+                                
+                                <li class="sin-decoracion"><span>Actividades:</span></li>
+                                <li><span>Equipo GoPro para fotografías únicas e inolvidables</span></li>
+                                <li><span>Kayak para dos personas</span></li>
+                                <li><span>Paddle board</span></li>
+                                <li><span>Equipo de snorkel panorámico</span></li>
+                                
+                                <li class="sin-decoracion"><span>Souvenirs:</span></li>
+                                <li><span>Salida de baño para las mujeres</span></li>
+                                <li><span>Floatie flamingo</span></li>
+                                <li><span>Coronas de flores para damas y novia</span></li>
+                                <li><span>Vaso personalizado para damas</span></li>
+                                <li><span>Copa bride to be para novia</span></li>
+                                <li><span>Album digital personalizado </span></li>
+                                <li><span>Fotografia de recuerdo en la playa</span></li>
+                                <li><span>Kit anti cruda</span></li>
+                            </ul>
                             <div class="spacing40 clearboth"></div>
                         </div><!--/.box-with-icon-->
                     </div><!--./col-md-4-->
 
-                   <div class="col-md-4">
+                   <div class="col-md-6">
                       <div class="box-with-icon">
-                          <i class="fa fa-paper-plane-o"></i>
-                            <h3>Expectation</h3>
-                            <p class="box-sub-title">The battle begins</p>
-                            <p>As the new academy gets up and running, Norman holds auditions for enrollment, which deepens the rivalry between Oz Academy and Horizon High.
-                            The Killjoy militia has everything they need to go to war, but as the battle begins, Aneela changes the entire game.</p>
+                          <i class="fa fa-graduation-cap"></i>
+                            <h3>Graduación</h3>
+                            <p class="box-sub-title">PROM PARTY</p>
+                            <ul>
+                                <li class="sin-decoracion"><span>Alimentos y bebidas:</span></li>
+                                <li><span>Menú dorado</span></li>
+                                <li><span>Brindis champagne</span></li>
+                                
+                                <li class="sin-decoracion"><span>Actividades:</span></li>
+                                <li><span>Equipo GoPro para fotografías únicas e inolvidables</span></li>
+                                <li><span>Kayak para dos personas</span></li>
+                                <li><span>Paddle board</span></li>
+                                <li><span>Equipo de snorkel panorámico</span></li>
+                                
+                                <li class="sin-decoracion"><span>Souvenirs:</span></li>
+                                <li><span>Salida de baño para las mujeres</span></li>
+                                <li><span>Floatie </span></li>
+                                <li><span>Gorras personalizadas</span></li>
+                                <li><span>Vasos personalizados</span></li>
+                                <li><span>Álbum digital personalizado </span></li>
+                                <li><span>Fotografía de recuerdo en la playa</span></li>
+                                <li><span>Kit anti cruda</span></li>
+                            </ul>
                             <div class="spacing40 clearboth"></div>
                         </div><!--/.box-with-icon-->
                     </div><!--./col-md-4-->
 
-                    <div class="col-md-4">
-                      <div class="box-with-icon">
-                          <i class="fa fa-life-ring"></i>
-                            <h3>Enjoyable</h3>
-                            <p class="box-sub-title">Deepens the rivalry</p>
-                            <p>As the new academy gets up and running, Norman holds auditions for enrollment, which deepens the rivalry between Oz Academy and Horizon High.
-                            The Killjoy militia has everything they need to go to war, but as the battle begins, Aneela changes the entire game.</p>
-                            <div class="spacing40 clearboth"></div>
-                        </div><!--/.box-with-icon-->
-                    </div><!--./col-md-4-->
-
-                    <div class="col-md-4">
-                      <div class="box-with-icon">
-                          <i class="fa fa-cubes"></i>
-                            <h3>Hustler</h3>
-                            <p class="box-sub-title">The entire game</p>
-                            <p>As the new academy gets up and running, Norman holds auditions for enrollment, which deepens the rivalry between Oz Academy and Horizon High.
-                            The Killjoy militia has everything they need to go to war, but as the battle begins, Aneela changes the entire game.</p>
-                            <div class="spacing40 clearboth"></div>
-                        </div><!--/.box-with-icon-->
-                    </div><!--./col-md-4-->
-
-
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                       <div class="box-with-icon">
                           <i class="fa fa-heartbeat"></i>
+                            <h3>Propuesta matrimonial</h3>
+                            <p class="box-sub-title">MARRIAGE PROPOSAL</p>
+                            <ul>
+                                <li class="sin-decoracion"><span>Alimentos y bebidas:</span></li>
+                                <li><span>Comida o cena 4 tiempos exquisito menú internacional</span></li>
+                                <li><span>Brindis Moët</span></li>
+                                <li><span>Mesero privado</span></li>
+                                <li><span>Montaje cristalería y mantelería de lujo</span></li>
+                                <li><span>Adorno floral y de velas</span></li>
+                                <li><span>Camino de flores y velas</span></li>
+                                <li><span>Locación privada especial</span></li>
+
+                                <li class="sin-decoracion"><span>Actividades:</span></li>
+                                <li><span>Música en vivo </span></li>
+                                <li><span>Se puede realizar recorrido normal que incluye</span></li>
+                                <li><span>Equipo GoPro para fotografías únicas e inolvidables</span></li>
+                                <li><span>Kayak para dos personas</span></li>
+                                <li><span>Paddle board</span></li>
+                                <li><span>Equipo de snorkel panorámico</span></li>
+                                <li><span>Locación privada especial</span></li>
+
+                                <li class="sin-decoracion"><span>Souvenirs:</span></li>
+                                <li><span>Video y fotografía profesional</span></li>
+                                <li><span>Fotografía de recuerdo en la playa</span></li>
+                                <li><span>Kit anti cruda</span></li>
+                            </ul>
+                            <div class="spacing40 clearboth"></div>
+                        </div><!--/.box-with-icon-->
+                    </div><!--./col-md-4-->
+
+                    <div class="col-md-6">
+                      <div class="box-with-icon">
+                          <i class="fa fa-life-ring"></i>
+                            <h3>Tour familiar</h3>
+                            <p class="box-sub-title">FAMILIAR TOUR</p>
+                            <ul>
+                            <li class="sin-decoracion"><span>Alimentos y bebidas:</span></li>
+                            <li><span>Menú dorado</span></li>
+
+                            <li class="sin-decoracion"><span>Actividades:</span></li>
+                            <li><span>Equipo GoPro para fotografías únicas e inolvidables</span></li>
+                            <li><span>Kayak para dos personas</span></li>
+                            <li><span>Paddle board</span></li>
+                            <li><span>Equipo de snorkel panorámico</span></li>
+
+                            <li class="sin-decoracion"><span>Souvenirs:</span></li>
+                            <li><span>Salida de baño para las mujeres</span></li>
+                            <li><span>Gorras personalizadas</span></li>
+                            <li><span>Vaso personalizado</span></li>
+                            <li><span>Álbum digital personalizado </span></li>
+                            <li><span>Fotografía de recuerdo en la playa</span></li>
+                            <li><span>Kit anti cruda</span></li>
+                        </ul>
+                        <div class="spacing40 clearboth"></div>
+                        </div><!--/.box-with-icon-->
+                    </div><!--./col-md-4-->
+
+
+                   <!-- <div class="col-md-4">
+                      <div class="box-with-icon">
+                          <i class="fa fa-cubes"></i>
                             <h3>Challengers</h3>
                             <p class="box-sub-title">Academy gets up</p>
                             <p>As the new academy gets up and running, Norman holds auditions for enrollment, which deepens the rivalry between Oz Academy and Horizon High.
                             The Killjoy militia has everything they need to go to war, but as the battle begins, Aneela changes the entire game.</p>
                             <div class="spacing40 clearboth"></div>
                         </div><!--/.box-with-icon-->
-                    </div><!--./col-md-4-->
+                    <!--</div><!--./col-md-4-->
 
-                    <div class="col-md-4">
+                    <!--<div class="col-md-4">
                       <div class="box-with-icon">
-                          <i class="fa fa-mortar-board"></i>
+                          <i class="fa fa-paper-plane-o"></i>
                             <h3>Advanced</h3>
                             <p class="box-sub-title">Go to war</p>
                             <p>As the new academy gets up and running, Norman holds auditions for enrollment, which deepens the rivalry between Oz Academy and Horizon High.
                             The Killjoy militia has everything they need to go to war, but as the battle begins, Aneela changes the entire game.</p>
                             <div class="spacing40 clearboth"></div>
                         </div><!--/.box-with-icon-->
-                    </div><!--./col-md-4-->
+                    <!--</div><!--./col-md-4-->
 
 
                 </div><!--/.row-->
@@ -214,121 +307,65 @@
 
                 <div class="col-md-3 port-item development ani-width">
                     <div class="port-inner">
-                        <a href="work1.html" class="port-link"></a>
                         <div class="port-box"></div>
-                        <div class="port-img width-img img-bg" data-background="images/work/10.jpg"></div>
+                        <div class="port-img width-img img-bg" data-background="images/galeria/1.png"></div>
                         <div class="img-mask"></div>
-                        <div class="port-dbox">
-                            <div class="dbox-relative">
-                                <h3>The truth</h3>
-                                <p>Web Development</p>
-                            </div><!--/.dbox-relative-->
-                        </div><!--/.port-dbox-->
                     </div><!--/.port-inner-->
                 </div><!--.port-item-->
 
                 <div class="col-md-3 port-item design ani-width" data-delay="0.2s">
                     <div class="port-inner">
-                        <a href="work2.html" class="port-link"></a>
                         <div class="port-box"></div>
-                        <div class="port-img width-img img-bg" data-background="images/work/9.jpg"></div>
+                        <div class="port-img width-img img-bg" data-background="images/galeria/2.png"></div>
                         <div class="img-mask"></div>
-                        <div class="port-dbox">
-                            <div class="dbox-relative">
-                                <h3>Haunted Palace</h3>
-                                <p>Web Design</p>
-                            </div><!--/.dbox-relative-->
-                        </div><!--/.port-dbox-->
                     </div><!--/.port-inner-->
                 </div><!--.port-item-->
 
                 <div class="col-md-3 port-item photography ani-width" data-delay="0.4s">
                     <div class="port-inner">
-                        <a href="work3.html" class="port-link"></a>
                         <div class="port-box"></div>
-                        <div class="port-img width-img img-bg" data-background="images/work/8.jpg"></div>
+                        <div class="port-img width-img img-bg" data-background="images/galeria/3.png"></div>
                         <div class="img-mask"></div>
-                        <div class="port-dbox">
-                            <div class="dbox-relative">
-                                <h3>Red Helm</h3>
-                                <p>Photography</p>
-                            </div><!--/.dbox-relative-->
-                        </div><!--/.port-dbox-->
                     </div><!--/.port-inner-->
                 </div><!--.port-item-->
 
                 <div class="col-md-3 port-item design ani-width" data-delay="0.6s">
                     <div class="port-inner">
-                        <a href="work4.html" class="port-link"></a>
                         <div class="port-box"></div>
-                        <div class="port-img width-img img-bg" data-background="images/work/7.jpg"></div>
+                        <div class="port-img width-img img-bg" data-background="images/galeria/4.png"></div>
                         <div class="img-mask"></div>
-                        <div class="port-dbox">
-                            <div class="dbox-relative">
-                                <h3>Natural explanation</h3>
-                                <p>Photography</p>
-                            </div><!--/.dbox-relative-->
-                        </div><!--/.port-dbox-->
                     </div><!--/.port-inner-->
                 </div><!--.port-item-->
 
                 <div class="col-md-3 port-item development ani-width">
                     <div class="port-inner">
-                        <a href="work1.html" class="port-link"></a>
                         <div class="port-box"></div>
-                        <div class="port-img width-img img-bg" data-background="images/work/6.jpg"></div>
+                        <div class="port-img width-img img-bg" data-background="images/galeria/5.png"></div>
                         <div class="img-mask"></div>
-                        <div class="port-dbox">
-                            <div class="dbox-relative">
-                                <h3>Enemies close</h3>
-                                <p>Web Development</p>
-                            </div><!--/.dbox-relative-->
-                        </div><!--/.port-dbox-->
                     </div><!--/.port-inner-->
                 </div><!--.port-item-->
 
                 <div class="col-md-3 port-item design ani-width" data-delay="0.2s">
                     <div class="port-inner">
-                        <a href="work2.html" class="port-link"></a>
                         <div class="port-box"></div>
-                        <div class="port-img width-img img-bg" data-background="images/work/5.jpg"></div>
+                        <div class="port-img width-img img-bg" data-background="images/galeria/6.png"></div>
                         <div class="img-mask"></div>
-                        <div class="port-dbox">
-                            <div class="dbox-relative">
-                                <h3>The crew</h3>
-                                <p>Web Design</p>
-                            </div><!--/.dbox-relative-->
-                        </div><!--/.port-dbox-->
                     </div><!--/.port-inner-->
                 </div><!--.port-item-->
 
                 <div class="col-md-3 port-item photography ani-width" data-delay="0.4s">
                     <div class="port-inner">
-                        <a href="work3.html" class="port-link"></a>
                         <div class="port-box"></div>
-                        <div class="port-img width-img img-bg" data-background="images/work/4.jpg"></div>
+                        <div class="port-img width-img img-bg" data-background="images/galeria/7.png"></div>
                         <div class="img-mask"></div>
-                        <div class="port-dbox">
-                            <div class="dbox-relative">
-                                <h3>Damage control </h3>
-                                <p>Photography</p>
-                            </div><!--/.dbox-relative-->
-                        </div><!--/.port-dbox-->
                     </div><!--/.port-inner-->
                 </div><!--.port-item-->
 
                 <div class="col-md-3 port-item design ani-width" data-delay="0.6s">
                     <div class="port-inner">
-                        <a href="work4.html" class="port-link"></a>
                         <div class="port-box"></div>
-                        <div class="port-img width-img img-bg" data-background="images/work/3.jpg"></div>
+                        <div class="port-img width-img img-bg" data-background="images/galeria/8.png"></div>
                         <div class="img-mask"></div>
-                        <div class="port-dbox">
-                            <div class="dbox-relative">
-                                <h3>New werewolves</h3>
-                                <p>Photography</p>
-                            </div><!--/.dbox-relative-->
-                        </div><!--/.port-dbox-->
                     </div><!--/.port-inner-->
                 </div><!--.port-item-->
 
@@ -347,154 +384,19 @@
 
          <!--WORKS START-->
 
-        <div id="gallery" class="clearfix white-bg">
-		<div class="slider-hidden">
-                    	<h2 class="content-title animated" align="center" data-animated="fadeInUp">Gallery</h2>
-         </div><!--slider-hidden-->
-            <ul class="port-filter port-filter-two animated" data-animated="fadeInUp">
-                    <li><a class="active" href="#" data-filter="*">All</a></li>
-                    <li><a href="#" data-filter=".design">Web Design</a></li>
-                    <li><a href="#" data-filter=".development">Web Development</a></li>
-                    <li><a href="#" data-filter=".photography">Photography</a></li>
-            </ul>
-            <div class="portfolio-body  portfolio-type-two clearfix">
-
-                <div class="col-md-3 port-item development ani-width">
-                    <div class="port-inner">
-                        <a href="work1.html" class="port-link"></a>
-                        <div class="port-box"></div>
-                        <div class="port-img width-img img-bg" data-background="images/work/10.jpg"></div>
-                        <div class="img-mask"></div>
-                        <div class="port-dbox">
-                            <div class="dbox-relative">
-                                <h3>The truth</h3>
-                                <p>Web Development</p>
-                            </div><!--/.dbox-relative-->
-                        </div><!--/.port-dbox-->
-                    </div><!--/.port-inner-->
-                </div><!--.port-item-->
-
-                <div class="col-md-3 port-item design ani-width" data-delay="0.2s">
-                    <div class="port-inner">
-                        <a href="work2.html" class="port-link"></a>
-                        <div class="port-box"></div>
-                        <div class="port-img width-img img-bg" data-background="images/work/9.jpg"></div>
-                        <div class="img-mask"></div>
-                        <div class="port-dbox">
-                            <div class="dbox-relative">
-                                <h3>Haunted Palace</h3>
-                                <p>Web Design</p>
-                            </div><!--/.dbox-relative-->
-                        </div><!--/.port-dbox-->
-                    </div><!--/.port-inner-->
-                </div><!--.port-item-->
-
-                <div class="col-md-3 port-item photography ani-width" data-delay="0.4s">
-                    <div class="port-inner">
-                        <a href="work3.html" class="port-link"></a>
-                        <div class="port-box"></div>
-                        <div class="port-img width-img img-bg" data-background="images/work/8.jpg"></div>
-                        <div class="img-mask"></div>
-                        <div class="port-dbox">
-                            <div class="dbox-relative">
-                                <h3>Red Helm</h3>
-                                <p>Photography</p>
-                            </div><!--/.dbox-relative-->
-                        </div><!--/.port-dbox-->
-                    </div><!--/.port-inner-->
-                </div><!--.port-item-->
-
-                <div class="col-md-3 port-item design ani-width" data-delay="0.6s">
-                    <div class="port-inner">
-                        <a href="work4.html" class="port-link"></a>
-                        <div class="port-box"></div>
-                        <div class="port-img width-img img-bg" data-background="images/work/7.jpg"></div>
-                        <div class="img-mask"></div>
-                        <div class="port-dbox">
-                            <div class="dbox-relative">
-                                <h3>Natural explanation</h3>
-                                <p>Photography</p>
-                            </div><!--/.dbox-relative-->
-                        </div><!--/.port-dbox-->
-                    </div><!--/.port-inner-->
-                </div><!--.port-item-->
-
-                <div class="col-md-3 port-item development ani-width">
-                    <div class="port-inner">
-                        <a href="work1.html" class="port-link"></a>
-                        <div class="port-box"></div>
-                        <div class="port-img width-img img-bg" data-background="images/work/6.jpg"></div>
-                        <div class="img-mask"></div>
-                        <div class="port-dbox">
-                            <div class="dbox-relative">
-                                <h3>Enemies close</h3>
-                                <p>Web Development</p>
-                            </div><!--/.dbox-relative-->
-                        </div><!--/.port-dbox-->
-                    </div><!--/.port-inner-->
-                </div><!--.port-item-->
-
-                <div class="col-md-3 port-item design ani-width" data-delay="0.2s">
-                    <div class="port-inner">
-                        <a href="work2.html" class="port-link"></a>
-                        <div class="port-box"></div>
-                        <div class="port-img width-img img-bg" data-background="images/work/5.jpg"></div>
-                        <div class="img-mask"></div>
-                        <div class="port-dbox">
-                            <div class="dbox-relative">
-                                <h3>The crew</h3>
-                                <p>Web Design</p>
-                            </div><!--/.dbox-relative-->
-                        </div><!--/.port-dbox-->
-                    </div><!--/.port-inner-->
-                </div><!--.port-item-->
-
-                <div class="col-md-3 port-item photography ani-width" data-delay="0.4s">
-                    <div class="port-inner">
-                        <a href="work3.html" class="port-link"></a>
-                        <div class="port-box"></div>
-                        <div class="port-img width-img img-bg" data-background="images/work/4.jpg"></div>
-                        <div class="img-mask"></div>
-                        <div class="port-dbox">
-                            <div class="dbox-relative">
-                                <h3>Damage control </h3>
-                                <p>Photography</p>
-                            </div><!--/.dbox-relative-->
-                        </div><!--/.port-dbox-->
-                    </div><!--/.port-inner-->
-                </div><!--.port-item-->
-
-                <div class="col-md-3 port-item design ani-width" data-delay="0.6s">
-                    <div class="port-inner">
-                        <a href="work4.html" class="port-link"></a>
-                        <div class="port-box"></div>
-                        <div class="port-img width-img img-bg" data-background="images/work/3.jpg"></div>
-                        <div class="img-mask"></div>
-                        <div class="port-dbox">
-                            <div class="dbox-relative">
-                                <h3>New werewolves</h3>
-                                <p>Photography</p>
-                            </div><!--/.dbox-relative-->
-                        </div><!--/.port-dbox-->
-                    </div><!--/.port-inner-->
-                </div><!--.port-item-->
-
-
-            </div><!--/.portfolio-body-->
-
-        </div><!--/works-->
+        
         <!--WORKS END-->
 
         <div class="table-box clearfix color-bg">
 
         	<div class="table-cell-box table-content">
-            	<h3>Contact us for your next Project!!</h3>
+            	<h3>Contáctanos para tu próximo viaje!!</h3>
                 <div class="spacing40 clearboth"></div>
-                <a class="content-btn" href="#contact">Get Quote</a>
+                <a class="content-btn" href="#contact">Obtener cotización</a>
             </div><!--/.table-cell-box-->
 
             <div class="table-cell-box">
-                <div class="img-bg full-img-bg" data-background="images/bg/2.jpg"></div>
+                <div class="img-bg full-img-bg" data-background="images/bandera.png"></div>
                 <div class="cell-box-padding"></div>
             </div><!--/.table-cell-box-->
 
@@ -856,7 +758,7 @@ return (key <= 13 || (key >= 48 && key <= 57));
         <div id="contact" class="table-box clearfix">
 
         	<div class="table-cell-box table-content gray-bg">
-            	<h3>Get in Touch</h3>
+            	<h3>Ponte en contacto</h3>
                 <div class="cell-line"></div>
                 <p>Arthur takes a break from hunting the Terror and tries to get back to his safe, normal, and unheroic life. Each episode of
                 The Planets will take an in-depth look at Venus, Mars, the newly discovered Planet 9, exoplanets, and others. </p>
@@ -877,32 +779,34 @@ return (key <= 13 || (key >= 48 && key <= 57));
                             <div id="MainContent">
                                <form id="MyContactForm" name="MyContactForm" method="post">
                                    <p class="name">
-                                   <input type="text" name="name" id="name" placeholder="Your Name ...">
-                                   <label for="name" id="nameLb"><span class="error">*Name Field Required</span></label>
+                                   <input type="text" name="name" id="name" placeholder="Nombre:">
+                                   <label for="name" id="nameLb"><span class="error">*Nombre requerido</span></label>
                                    </p>
                                    <p>
-                                   <input type="email" name="email" id="email" placeholder="Your Email ...">
+                                   <input type="email" name="email" id="email" placeholder="Email:">
                                    <label for="email" id="emailLb">
-                                   <span class="error error1">*Email Field Required</span>
-                                   <span class="error error2">*Email Not Valid</span>
+                                   <span class="error error1">*Email requerido</span>
+                                   <span class="error error2">*Email no válido</span>
                                    </label>
                                    </p>
                                    <p>
-                                   <input type="text" name="phone" id="phone" placeholder="Your Telephone ...">
-                                   <label for="phone" id="phoneLb"><span class="error">*Telephone Field Required</span></label>
+                                   <input type="text" name="phone" id="phone" placeholder="Teléfono">
+                                   <label for="phone" id="phoneLb"><span class="error">*Teléfono requerido</span></label>
                                    </p>
                                    <p>
-                                     <input for="datepicker" type="text" name="datepicker" class="form" id="datepicker" placeholder="Fecha inicio" readonly min="2016-11-08" max="2016-11-30" step="1">
+                                     <input for="datepicker" type="text" name="datepicker" class="form" id="datepicker" placeholder="Fecha de llegada:" readonly min="2016-11-08" max="2016-11-30" step="1">
+                                     <label for="datepicker" id="phoneLb"><span class="error">*Fecha de llegada requerida</span></label>
                                    </p>
                                    <p>
-                                     <input for="otherdatepicker" type="text" name="otherdatepicker" class="form" id="otherdatepicker" placeholder="Fecha final" readonly min="2016-11-08" max="2016-11-30" step="1">
+                                     <input for="otherdatepicker" type="text" name="otherdatepicker" class="form" id="otherdatepicker" placeholder="Fecha de salida:" readonly min="2016-11-08" max="2016-11-30" step="1">
+                                     <label for="otherdatepicker" id="phoneLb"><span class="error">*Fecha de salida requerida</span></label>
                                    </p>
                                    <p class="textarea">
-                                   <textarea name="message" id="message" placeholder="Your Message ..." rows="5"></textarea>
+                                   <textarea name="message" id="message" placeholder="Mensaje:" rows="5"></textarea>
                                    <label for="message" id="messageLb"><span class="error">*Message Field Required</span></label>
                                    </p>
                                    <div class="clearfix"></div>
-                                   <a href="#" class="contact-btn">Send Message</a>
+                                   <a href="#" class="contact-btn">Enviar</a>
                                </form>
                             </div><!--MainContent-->
                             </div><!--form-inner-->
@@ -924,6 +828,7 @@ return (key <= 13 || (key >= 48 && key <= 57));
             	<img class="footer-img" src="images/footer-logo2.png"	 alt="logo">
 
                 <ul class="footer-icon">
+                   <li><a>&nbsp;</a></li>
                     <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                     <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                     <li><a href="#"><i class="fa fa-youtube"></i></a></li>
