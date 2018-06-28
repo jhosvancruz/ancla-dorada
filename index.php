@@ -91,11 +91,11 @@
         <!--HEADER END-->
 
         <!--YOUTUBE BACKGROUND-->
-        <div class="bg-youtube" data-property="{videoURL:'http://www.youtube.com/watch?v=5Nwomy6fjNg', opacity:1, autoPlay:true, containment:'.home-slider', startAt:0, stopAt:0, mute:true, optimizeDisplay:true, showControls:false, printUrl:true, loop:true, addRaster:false, quality:'hd1080', realfullscreen:'true', ratio:'auto'}"></div>
+        <div class="bg-youtube" data-property="{videoURL:'http://www.youtube.com/watch?v=5Nwomy6fjNg', opacity:1, autoPlay:true, containment:'.home-slider', startAt:0, stopAt:0, mute:true, optimizeDisplay:true, showControls:false, printUrl:true, loop:true, addRaster:false, quality:'hd1080', realfullscreen:'true', ratio:'auto'}" style="margin: 0 auto"></div>
         <!--YOUTUBE BACKGROUND END-->
 
         <!--HOME SLIDER START-->
-        <div id="home" class="home-slider ani-slider slider" data-slick='{"autoplaySpeed": 8000}'>
+        <div id="home" class="home-slider ani-slider slider" data-slick='{"autoplaySpeed": 8000}' style="margin-left: -5%;">
 
             <div class="slide">
                 <div class="slider-mask" data-animation="slideDownReturn" data-delay="0.1s"></div>
@@ -104,7 +104,7 @@
                 <div class="slider-box container-fluid">
                     <div class="slider-content">
                     	<div class="slider-hidden">
-                        	<h3 class="slider-title slider-title-big" data-animation="fadeIn" data-duration="2s" data-delay="0.8s">&nbsp;</h3>
+                        	<h3 class="slider-title slider-title-big" data-animation="fadeIn" data-duration="2s" data-delay="0.8s"></h3>
                         </div><!--/.slider-hidden-->
 
 
@@ -156,7 +156,7 @@
                   </style>
                   <div class="col-md-6">
                       <div class="box-with-icon">
-                          <i class="fa fa-bell-o"></i>
+                          <i class="fa fa-glass"></i>
                             <h3>Despedida de soltera</h3>
                             <p class="box-sub-title">BACHELORETTE PARTY</p>
                             <ul>
@@ -214,7 +214,7 @@
 
                     <div class="col-md-6">
                       <div class="box-with-icon">
-                          <i class="fa fa-heartbeat"></i>
+                          <i class="fa fa-heart"></i>
                             <h3>Propuesta matrimonial</h3>
                             <p class="box-sub-title">MARRIAGE PROPOSAL</p>
                             <ul>
@@ -301,7 +301,7 @@
         </div><!--/about-->
         <!--ABOUT END-->
 		<!--WORKS START-->
-        <div id="works" class="clearfix white-bg">
+        <div id="gallery" class="clearfix white-bg">
 
             <div class="portfolio-body  portfolio-type-two clearfix">
 
