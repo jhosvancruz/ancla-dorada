@@ -117,7 +117,7 @@ if(isset($_SESSION["usuario"]) && isset($_SESSION["pass"]))
                 <div class="row">
                         <div class="page-header">
                           <h2></h2>
-                          <a href="http://localhost/ancla-dorada/calendario/login/vista/cerrarsesion.php">Cerrar Sesión</a>
+                          <a href="https://alebrijestecnologias.com/calendario/login/vista/cerrarsesion.php">Cerrar Sesión</a>
                         </div>
                                 <div class="pull-left form-inline"><br>
                                         <div class="btn-group">
@@ -344,6 +344,6 @@ if(isset($_SESSION["usuario"]) && isset($_SESSION["pass"]))
 <?php
 }
 else {
-   echo "<meta http-equiv='refresh' content='0;url=http://localhost/ancla-dorada/calendario/login/vista/'>";
+   echo "<meta http-equiv='refresh' content='0;url=https://alebrijestecnologias.com/calendario/login/vista/'>";
 }
  ?>

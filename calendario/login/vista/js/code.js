@@ -33,7 +33,7 @@ $(document).ready(ini);
       url: "validar.php",
       success: function(result){
         if(result == "true"){
-          document.location.href="http://localhost/ancla-dorada/calendario/";
+          document.location.href="https://alebrijestecnologias.com/calendario/";
         }
         else {
           $("#resultado").html("<div class='alert alert-danger' role='alert'>Usuario no válido</div>");

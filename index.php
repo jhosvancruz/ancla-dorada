@@ -66,10 +66,9 @@
                             </div><!--/.menu-box-->
 
                             <ul class="header-icon hidden-sm hidden-xs">
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://www.instagram.com/ancladoradamx/"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="https://www.facebook.com/ANCLADORADAMX/"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://twitter.com/AnclaDoradaMx"><i class="fa fa-twitter"></i></a></li>
                             </ul><!--/.team-icon-->
                         </div><!--/.box-header-->
                         <div class="box-mobile hidden-lg hidden-md">
@@ -91,7 +90,7 @@
         <!--HEADER END-->
 
         <!--YOUTUBE BACKGROUND-->
-        <div class="bg-youtube" data-property="{videoURL:'http://www.youtube.com/watch?v=5Nwomy6fjNg', opacity:1, autoPlay:true, containment:'.home-slider', startAt:0, stopAt:0, mute:true, optimizeDisplay:true, showControls:false, printUrl:true, loop:true, addRaster:false, quality:'hd1080', realfullscreen:'true', ratio:'auto'}" style="margin: 0 auto"></div>
+        <div class="bg-youtube" data-property="{videoURL:'http://www.youtube.com/watch?v=5Nwomy6fjNg', opacity:1, autoPlay:true, containment:'.home-slider', startAt:0, stopAt:0, mute:true, optimizeDisplay:true, showControls:false, printUrl:true, loop:true, addRaster:false, quality:'hd1080', realfullscreen:'true', ratio:'auto'}"></div>
         <!--YOUTUBE BACKGROUND END-->
 
         <!--HOME SLIDER START-->
@@ -104,7 +103,7 @@
                 <div class="slider-box container-fluid">
                     <div class="slider-content">
                     	<div class="slider-hidden">
-                        	<h3 class="slider-title slider-title-big" data-animation="fadeIn" data-duration="2s" data-delay="0.8s"></h3>
+                        	<h3 class="slider-title slider-title-big" data-animation="fadeIn" data-duration="2s" data-delay="0.8s">&nbsp;</h3>
                         </div><!--/.slider-hidden-->
 
 
@@ -156,27 +155,25 @@
                   </style>
                   <div class="col-md-6">
                       <div class="box-with-icon">
-                          <i class="fa fa-glass"></i>
-                            <h3>Despedida de soltera</h3>
-                            <p class="box-sub-title">BACHELORETTE PARTY</p>
+                          <i class="fa fa-life-ring"></i>
+                            <h3>Tour familiar</h3>
+                            <p class="box-sub-title">FAMILIAR TOUR</p>
                             <ul>
                                 <li class="sin-decoracion"><span>Alimentos y bebidas:</span></li>
                                 <li><span>Menú dorado</span></li>
-                                
+
                                 <li class="sin-decoracion"><span>Actividades:</span></li>
                                 <li><span>Equipo GoPro para fotografías únicas e inolvidables</span></li>
                                 <li><span>Kayak para dos personas</span></li>
                                 <li><span>Paddle board</span></li>
                                 <li><span>Equipo de snorkel panorámico</span></li>
-                                
+
                                 <li class="sin-decoracion"><span>Souvenirs:</span></li>
                                 <li><span>Salida de baño para las mujeres</span></li>
-                                <li><span>Floatie flamingo</span></li>
-                                <li><span>Coronas de flores para damas y novia</span></li>
-                                <li><span>Vaso personalizado para damas</span></li>
-                                <li><span>Copa bride to be para novia</span></li>
-                                <li><span>Album digital personalizado </span></li>
-                                <li><span>Fotografia de recuerdo en la playa</span></li>
+                                <li><span>Gorras personalizadas</span></li>
+                                <li><span>Vaso personalizado</span></li>
+                                <li><span>Álbum digital personalizado </span></li>
+                                <li><span>Fotografía de recuerdo en la playa</span></li>
                                 <li><span>Kit anti cruda</span></li>
                             </ul>
                             <div class="spacing40 clearboth"></div>
@@ -247,28 +244,30 @@
 
                     <div class="col-md-6">
                       <div class="box-with-icon">
-                          <i class="fa fa-life-ring"></i>
-                            <h3>Tour familiar</h3>
-                            <p class="box-sub-title">FAMILIAR TOUR</p>
+                          <i class="fa fa-glass"></i>
+                            <h3>Despedida de soltera</h3>
+                            <p class="box-sub-title">BACHELORETTE PARTY</p>
                             <ul>
-                            <li class="sin-decoracion"><span>Alimentos y bebidas:</span></li>
-                            <li><span>Menú dorado</span></li>
-
-                            <li class="sin-decoracion"><span>Actividades:</span></li>
-                            <li><span>Equipo GoPro para fotografías únicas e inolvidables</span></li>
-                            <li><span>Kayak para dos personas</span></li>
-                            <li><span>Paddle board</span></li>
-                            <li><span>Equipo de snorkel panorámico</span></li>
-
-                            <li class="sin-decoracion"><span>Souvenirs:</span></li>
-                            <li><span>Salida de baño para las mujeres</span></li>
-                            <li><span>Gorras personalizadas</span></li>
-                            <li><span>Vaso personalizado</span></li>
-                            <li><span>Álbum digital personalizado </span></li>
-                            <li><span>Fotografía de recuerdo en la playa</span></li>
-                            <li><span>Kit anti cruda</span></li>
-                        </ul>
-                        <div class="spacing40 clearboth"></div>
+                                <li class="sin-decoracion"><span>Alimentos y bebidas:</span></li>
+                                <li><span>Menú dorado</span></li>
+                                
+                                <li class="sin-decoracion"><span>Actividades:</span></li>
+                                <li><span>Equipo GoPro para fotografías únicas e inolvidables</span></li>
+                                <li><span>Kayak para dos personas</span></li>
+                                <li><span>Paddle board</span></li>
+                                <li><span>Equipo de snorkel panorámico</span></li>
+                                
+                                <li class="sin-decoracion"><span>Souvenirs:</span></li>
+                                <li><span>Salida de baño para las mujeres</span></li>
+                                <li><span>Floatie flamingo</span></li>
+                                <li><span>Coronas de flores para damas y novia</span></li>
+                                <li><span>Vaso personalizado para damas</span></li>
+                                <li><span>Copa bride to be para novia</span></li>
+                                <li><span>Album digital personalizado </span></li>
+                                <li><span>Fotografia de recuerdo en la playa</span></li>
+                                <li><span>Kit anti cruda</span></li>
+                            </ul>
+                            <div class="spacing40 clearboth"></div>
                         </div><!--/.box-with-icon-->
                     </div><!--./col-md-4-->
 
@@ -404,288 +403,11 @@
 
 
 <!--INICIO DATEPICKER-->
-<?php
-    class conexion{
-        function recuperarDatos(){
-            $resultadoFinal = "";
-            
-            $db = new PDO("mysql:host=localhost;dbname=eventos", "root", "");
 
-            $result = $db->query("SELECT inicio_normal, final_normal FROM eventos");
-            while ($row = $result->fetch(PDO::FETCH_ASSOC)){
-                //print_r($row["inicio_normal"]);
-                //echo "<br>";
-                //print_r($row["final_normal"]);
-                //echo "<br>";
-
-                $myText_inicio = (string)$row["inicio_normal"];
-                $myText_final = (string)$row["final_normal"];
-                
-                //DIAS------------------------//
-                //echo "Dia inicio: ";
-                if(substr($myText_inicio, 0,1) == '0'){
-                    $dia_i = substr($myText_inicio, 1, 1);
-                }
-                else{
-                    $dia_i = substr($myText_inicio, 0, 2);
-                };
-                //echo $dia_i;
-                //echo "<br>";
-                
-                //echo "Dia final: ";
-                if(substr($myText_final, 0,1) == '0'){
-                    $dia_f = substr($myText_final, 1, 1);
-                }
-                else{
-                    $dia_f = substr($myText_final, 0, 2);
-                };
-                //echo $dia_f;
-                //echo "<br>";
-                
-                //MES(ES)------------------------//
-                //echo "Mes inicio: ";
-                if(substr($myText_inicio, 3,1) == '0'){
-                    $mes_i = substr($myText_inicio, 4, 1);
-                }
-                else{
-                    $mes_i = substr($myText_inicio, 3, 2);
-                };
-                //echo $mes_i;
-                //echo "<br>";
-                
-                //echo "Mes final: ";
-                if(substr($myText_final, 3,1) == '0'){
-                    $mes_f = substr($myText_final, 4, 1);
-                }
-                else{
-                    $mes_f = substr($myText_final, 3, 2);
-                };
-                //echo $mes_f;
-                //echo "<br>";
-                
-                //AÑO(S)------------------------//
-                //echo "Año inicio: ";
-                $anio_i = substr($myText_inicio, 6, 4);
-                //echo $anio_i;
-                //echo "<br>";
-                
-                //echo "Año final: ";
-                $anio_f = substr($myText_final, 6, 4);
-                //echo $anio_f;
-                //echo "<br>";
-                
-                $evento = "$mes_i-$dia_i-$anio_i";
-                //echo $evento; 
-                //echo "<br>";
-                //echo "<br>";
-                
-                for($aux_anio = $anio_i; $aux_anio <= $anio_f; $aux_anio++){
-                    for($aux_mes = $mes_i; $aux_mes <= $mes_f; $aux_mes++){
-                        for($aux_dia = $dia_i; $aux_dia <= $dia_f; $aux_dia++){
-                            $evento = "$aux_mes-$aux_dia-$aux_anio";
-                            //echo $evento;
-                            //echo "<br>";
-                            $resultadoFinal = "\"$evento\",$resultadoFinal";
-                        }
-                    }
-                }
-                //echo "<br><br><br>";
-                //echo "<br><br><br>";
-                
-                //echo "<br><br><br>";
-                //echo "<br><br><br>";
-                /*
-                
-                
-                for($i = 0; $i <= $tiempo; $i++){
-                    //INICIO
-                    echo "Dia: ";
-                    $dia_i = substr($myText_inicio, 0, 2);
-                    echo $dia_i;
-                    echo "<br>";
-                    
-                    echo "Mes: ";
-                    if(substr($myText_inicio, 3,1) == '0'){
-                        $mes_i = substr($myText_inicio, 4, 1);
-                    }
-                    else{
-                        $mes_i = substr($myText_inicio, 3, 2);
-                    }
-                    echo $mes_i;
-                    echo "<br>";
-                    
-                    echo "Año: ";
-                    $anio_i = substr($myText_inicio, 6, 4);
-                    echo $anio_i;
-                    echo "<br>";
-                    
-                    //FINAL
-                    echo "Dia: ";
-                    $dia_f = substr($myText_final, 0, 2);
-                    echo $dia_f;
-                    echo "<br>";
-                    
-                    echo "Mes: ";
-                    if(substr($myText_final, 3,1) == '0'){
-                        $mes_f = substr($myText_final, 4, 1);
-                    }
-                    else{
-                        $mes_f = substr($myText_final, 3, 2);
-                    }
-                    echo $mes_f;
-                    echo "<br>";
-                    
-                    echo "Año: ";
-                    $anio_f = substr($myText_final, 6, 4);
-                    echo $anio_f;
-                    echo "<br>";
-                    
-                    echo "$mes_i-$dia_i-$anio_i<br>";
-                }
-                
-                echo "******************<br>";
-            }
-            /*
-            while($fila_inicio = mysqli_fetch_array($resultado_inicio))
-            {
-                
-                echo $fila_inicio["inicio_normal"].'</br>';
-            }
-            */
-            
-            
-            
-            /*
-            $resultadoFinal = "";
-            
-            
-            
-            
-            
-            $x = 0;
-            $contador = 0;
-            
-            while($auxiliar_contador = mysqli_fetch_array($resultado_inicio)){
-                $x++;
-            }
-            echo $x;
-            
-            
-            while ($contador < $x){
-                
-                $fila_inicio = mysqli_fetch_array($resultado_inicio);
-                $fila_final = mysqli_fetch_array($resultado_final);
-                
-                
-                $inicio = $fila_inicio["inicio_normal"];
-                echo "$fila_inicio[inicio_normal] <br>";
-                
-                $myText = (string)$inicio;
-                
-                echo "Dia: ";
-                $dia = substr($myText, 0, 2);
-                echo $dia;
-                echo "<br>";
-                
-                echo "Mes: ";
-                if(substr($myText, 3,1) == '0'){
-                    $mes = substr($myText, 4, 1);
-                }
-                else{
-                    $mes = substr($myText, 3, 2);
-                }
-                
-                echo $mes;
-                echo "<br>";
-                
-                echo "Año: ";
-                $anio = substr($myText, 6, 4);
-                echo $anio;
-                echo "<br>";
-                
-                $evento = "$mes-$dia-$anio";
-                echo $evento; 
-                
-                
-                
-                $resultadoFinal = "\"$evento\", $resultadoFinal";
-                
-                echo "<br><br><br>";
-                
-                
-                
-                $final = $fila_final["final_normal"];
-                echo "$fila_final[final_normal] <br>";
-
-                
-                $myTextFinal = (string)$final;
-                
-                echo "Dia: ";
-                $diaFinal = substr($myTextFinal, 0, 2);
-                echo $diaFinal;
-                echo "<br>";
-                
-                 echo "Mes: ";
-                if(substr($myTextFinal, 3,1) == '0'){
-                    $mesFinal = substr($myTextFinal, 4, 1);
-                }
-                else{
-                    $mesFinal = substr($myTextFinal, 3, 2);
-                }
-                
-                echo $mesFinal;
-                echo "<br>";
-                
-                echo "Año: ";
-                $anioFinal = substr($myTextFinal, 6, 4);
-                echo $anioFinal;
-                echo "<br>";
-                
-                echo "<br><br><br>";
-                
-                $contador++;
-            }
-            
-            echo $resultadoFinal;
-            echo "<br><br><br>";
-
-            /*
-            while (){
-                $final = $fila_final["final_normal"];
-                echo "$fila_final[final_normal] <br>";
-
-                
-                $myText = (string)$final;
-                
-                echo "Dia: ";
-                $dia = substr($myText, 0, 2);
-                echo $dia;
-                echo "<br>";
-                
-                 echo "Mes: ";
-                if(substr($myText, 3,1) == '0'){
-                    $mes = substr($myText, 4, 1);
-                }
-                else{
-                    $mes = substr($myText, 3, 2);
-                }
-                
-                echo $mes;
-                echo "<br>";
-                
-                echo "Año: ";
-                $anio = substr($myText, 6, 4);
-                echo $anio;
-                echo "<br>";
-                
-                echo "<br><br><br>";
-            }*/
-            }
-            echo "[$resultadoFinal]";
-            
-        }
-    }
+<?php 
+    include "datepicker.php";
     $Conexion = new conexion();
+    
     //$Conexion -> recuperarDatos();
 ?>
 <script type="text/javascript">
@@ -753,6 +475,7 @@ var key = nav4 ? evt.which : evt.keyCode;
 return (key <= 13 || (key >= 48 && key <= 57)); 
 } 
  </script>
+
 <!--FIN DATEPICKER-->
        
         <div id="contact" class="table-box clearfix">
@@ -760,12 +483,11 @@ return (key <= 13 || (key >= 48 && key <= 57));
         	<div class="table-cell-box table-content gray-bg">
             	<h3>Ponte en contacto</h3>
                 <div class="cell-line"></div>
-                <p>Arthur takes a break from hunting the Terror and tries to get back to his safe, normal, and unheroic life. Each episode of
-                The Planets will take an in-depth look at Venus, Mars, the newly discovered Planet 9, exoplanets, and others. </p>
+                <p>Envianos tus datos para obtener más información y enviarte una cotización más detallada.</p>
                 <ul class="contact-list">
-                    <li><i class="fa fa-home"></i> 11231 Buah Batu Bandung Jawa barat Indonesia</li>
-                    <li><i class="fa fa-phone"></i> 987-654-321 987-623-3441</li>
-                    <li><i class="fa fa-envelope"></i> <a href="#">company-email@email.com</a></li>
+                    <li><i class="fa fa-home"></i> Ancla Dorada Mx</li>
+                    <li><i class="fa fa-phone"></i> 33.38.41.44.32</li>
+                    <li><i class="fa fa-envelope"></i> contacto@ancladorada.com</li>
                 </ul>
                 <div class="spacing40 clearboth"></div>
             </div><!--/.table-cell-box-->
@@ -829,12 +551,12 @@ return (key <= 13 || (key >= 48 && key <= 57));
 
                 <ul class="footer-icon">
                    <li><a>&nbsp;</a></li>
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="https://www.facebook.com/ANCLADORADAMX/"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/AnclaDoradaMx"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCNh991rlOV9GjgcFDdWACpA"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="https://www.instagram.com/ancladoradamx/"><i class="fa fa-instagram"></i></a></li>
 
-                    <li><a href="http://localhost/calendario/login/vista/"><i class="fal fa-sign-in-alt "></i></a></li>
+                    <li><a><i class="fal fa-sign-in-alt "></i></a></li>
                 </ul><!--/.footer-icon-->
 			</div><!--/.container-fluid-->
 		</footer><!--/.footer-->

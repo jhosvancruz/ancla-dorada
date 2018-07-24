@@ -1,13 +1,13 @@
 <?php
-$toEmail 		= "asd@asdasd"; //Replace it recipient email address
-$subject 		= 'Ah!! My email from Somebody out there...'; //Subject line for emails
+$toEmail 		= "charly@alebrijestecnologias.com"; //Replace it recipient email address
+$subject 		= 'Contacto página web'; //Subject line for emails
 
 //Let's clean harmful characters from raw POST data using PHP Sanitize filters.
 $postName 		       = filter_var($_POST["postName"], FILTER_SANITIZE_STRING); 
 $postEmail 		       = filter_var($_POST["postEmail"], FILTER_SANITIZE_EMAIL);
 $postPhone 		       = filter_var($_POST["postPhone"], FILTER_SANITIZE_STRING);
-$postDatepicker	       = filter_var($_POST["postPhone"], FILTER_SANITIZE_STRING);
-$postOtherDatepicker   = filter_var($_POST["postPhone"], FILTER_SANITIZE_STRING);
+$postDatepicker	       = filter_var($_POST["postDatepicker"], FILTER_SANITIZE_STRING);
+$postOtherDatepicker   = filter_var($_POST["postOtherDatepicker"], FILTER_SANITIZE_STRING);
 $postMessage 	       = filter_var($_POST["postMessage"], FILTER_SANITIZE_STRING);
 
 //Let's put additional php validation here
@@ -50,7 +50,7 @@ $headers = 'From: '.$postEmail.'' . "\r\n" .
 	
 //Email Body
 $Body = "";
-$Body .= "Name: ";
+$Body .= "Nombre: ";
 $Body .= $postName;
 $Body .= "\n";
 $Body .= "\n";
@@ -58,7 +58,7 @@ $Body .= "Email: ";
 $Body .= $postEmail;
 $Body .= "\n";
 $Body .= "\n";
-$Body .= "Phone: ";
+$Body .= "Teléfono: ";
 $Body .= $postPhone;
 $Body .= "\n";
 $Body .= "\n";
@@ -70,7 +70,7 @@ $Body .= "Fecha final: ";
 $Body .= $postOtherDatepicker;
 $Body .= "\n";
 $Body .= "\n";
-$Body .= "Message: ";
+$Body .= "Mensaje: ";
 $Body .= $postMessage;
 $Body .= "\n";
 $Body .= "\n";
@@ -80,12 +80,12 @@ $Body .= "\n";
 
 if(!$sentMail)
 	{
-		header('HTTP/1.1 500 Couldnot send mail! Sorry..'); 
+		header('HTTP/1.1 500 Fallo en el envío'); 
 		exit();
 	}else{
-		echo '<h3>Hi '.$postName.', Thank you for your email</h3>
-		<p>Your email has already arrived in our Inbox, all We need to do is Check it..
-		<br />Good day.</p>';
+		echo '<h3>Hola '.$postName.'</h3>
+		<p>Tu correo se envió con éxito
+		<br />Gracias por ponerte en contacto con nosotros</p>';
 	}
 
 ?>

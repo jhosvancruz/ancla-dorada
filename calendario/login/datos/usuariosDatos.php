@@ -1,16 +1,14 @@
 <?php
   include "../entidades/usuarios.php";
   include "conexion.php";
-
   class usuariosDatos{
     function insertarUsuarios($usuario, $pass){
       $cnn = new conexion();
       $con = $cnn->conectar();
-
       $usuarios = new usuarios();
       $usuarios->usuario = $usuario;
       $usuarios->contrasena = $pass;
-      mysqli_select_db($con, "eventos");
+      mysqli_select_db($con, "alebrij3_eventos");
       $sql = "INSERT INTO usuarios (usuario, contrasena) VALUES ('".$usuarios->usuario."', '".$usuarios->contrasena."')";
       if(mysqli_query($con, $sql))
       {
@@ -24,11 +22,10 @@
     function validar($usuario, $pass){
       $cnn = new conexion();
       $con = $cnn->conectar();
-
       $usuarios = new usuarios();
       $usuarios->usuario = $usuario;
       $usuarios->contrasena = $pass;
-      mysqli_select_db($con, "eventos");
+      mysqli_select_db($con, "alebrij3_eventos");
       $sql = "SELECT * FROM usuarios WHERE usuario = '".$usuarios->usuario."' and contrasena = '".$usuarios->contrasena."'";
       $consulta = mysqli_query($con, $sql);
       $fila = mysqli_fetch_array($consulta);
@@ -43,6 +40,4 @@
       mysqli_close($con);
     }
   }
-
-
  ?>
