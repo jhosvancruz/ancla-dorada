@@ -99,7 +99,7 @@
             <div class="slide">
                 <div class="slider-mask" data-animation="slideDownReturn" data-delay="0.1s"></div>
                 <div class="slider-img-bg" data-animation="puffIn" data-delay="0.2s" data-animation-duration="0.7s"
-                data-background="images/slider/1.jpg" data-stellar-ratio="0.8"></div>
+                data-background="images/bandera.png" data-stellar-ratio="0.8"></div>
                 <div class="slider-box container-fluid">
                     <div class="slider-content">
                     	<div class="slider-hidden">
