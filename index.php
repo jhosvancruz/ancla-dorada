@@ -307,7 +307,7 @@
                 <div class="col-md-3 port-item development ani-width">
                     <div class="port-inner">
                         <div class="port-box"></div>
-                        <div class="port-img width-img img-bg" data-background="images/galeria/1.png"></div>
+                        <div class="port-img width-img img-bg" data-background="images/galeria/1.jpg"></div>
                         <div class="img-mask"></div>
                     </div><!--/.port-inner-->
                 </div><!--.port-item-->
@@ -315,7 +315,7 @@
                 <div class="col-md-3 port-item design ani-width" data-delay="0.2s">
                     <div class="port-inner">
                         <div class="port-box"></div>
-                        <div class="port-img width-img img-bg" data-background="images/galeria/2.png"></div>
+                        <div class="port-img width-img img-bg" data-background="images/galeria/2.jpg"></div>
                         <div class="img-mask"></div>
                     </div><!--/.port-inner-->
                 </div><!--.port-item-->
@@ -323,7 +323,7 @@
                 <div class="col-md-3 port-item photography ani-width" data-delay="0.4s">
                     <div class="port-inner">
                         <div class="port-box"></div>
-                        <div class="port-img width-img img-bg" data-background="images/galeria/3.png"></div>
+                        <div class="port-img width-img img-bg" data-background="images/galeria/3.jpg"></div>
                         <div class="img-mask"></div>
                     </div><!--/.port-inner-->
                 </div><!--.port-item-->
@@ -331,7 +331,7 @@
                 <div class="col-md-3 port-item design ani-width" data-delay="0.6s">
                     <div class="port-inner">
                         <div class="port-box"></div>
-                        <div class="port-img width-img img-bg" data-background="images/galeria/4.png"></div>
+                        <div class="port-img width-img img-bg" data-background="images/galeria/4.jpg"></div>
                         <div class="img-mask"></div>
                     </div><!--/.port-inner-->
                 </div><!--.port-item-->
@@ -339,7 +339,7 @@
                 <div class="col-md-3 port-item development ani-width">
                     <div class="port-inner">
                         <div class="port-box"></div>
-                        <div class="port-img width-img img-bg" data-background="images/galeria/5.png"></div>
+                        <div class="port-img width-img img-bg" data-background="images/galeria/5.jpg"></div>
                         <div class="img-mask"></div>
                     </div><!--/.port-inner-->
                 </div><!--.port-item-->
@@ -347,7 +347,7 @@
                 <div class="col-md-3 port-item design ani-width" data-delay="0.2s">
                     <div class="port-inner">
                         <div class="port-box"></div>
-                        <div class="port-img width-img img-bg" data-background="images/galeria/6.png"></div>
+                        <div class="port-img width-img img-bg" data-background="images/galeria/6.jpg"></div>
                         <div class="img-mask"></div>
                     </div><!--/.port-inner-->
                 </div><!--.port-item-->
@@ -355,7 +355,7 @@
                 <div class="col-md-3 port-item photography ani-width" data-delay="0.4s">
                     <div class="port-inner">
                         <div class="port-box"></div>
-                        <div class="port-img width-img img-bg" data-background="images/galeria/7.png"></div>
+                        <div class="port-img width-img img-bg" data-background="images/galeria/7.jpg"></div>
                         <div class="img-mask"></div>
                     </div><!--/.port-inner-->
                 </div><!--.port-item-->
@@ -363,7 +363,7 @@
                 <div class="col-md-3 port-item design ani-width" data-delay="0.6s">
                     <div class="port-inner">
                         <div class="port-box"></div>
-                        <div class="port-img width-img img-bg" data-background="images/galeria/8.png"></div>
+                        <div class="port-img width-img img-bg" data-background="images/galeria/8.jpg"></div>
                         <div class="img-mask"></div>
                     </div><!--/.port-inner-->
                 </div><!--.port-item-->
